@@ -14,7 +14,7 @@ The codebase is implemented in Python 3.8 or 3.6. Required packages is:
 ### Entity Type prediction Results
 Dataset | MRR | Hits@1 | Hits@3 | Hits@10
 :--- | :---: | :---: | :---: | :---:
-FB15kET | 0.0000 | 0.0000 | 0.0000 | 0.0000
-YAGO43KET | 0.0000 | 0.0000 | 0.0000 | 0.0000
+- | 0.0000 | 0.0000 | 0.0000 | 0.0000
+- | 0.0000 | 0.0000 | 0.0000 | 0.0000
 
 
