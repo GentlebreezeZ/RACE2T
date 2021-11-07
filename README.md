@@ -1,5 +1,5 @@
 <h1 align="center">
-  FRGATs
+  RACE2T
 </h1>
 
 ### Requirements
