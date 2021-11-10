@@ -1,0 +1,984 @@
+2021-10-20 21:21:27 (INFO) main line:13 START TIME : 2021-10-20 21:21:27
+2021-10-20 21:21:27 (INFO) main line:64 -------------frgat_layers-------------: 1 
+2021-10-20 21:21:27 (INFO) main line:65 -------------frgat_heads-------------: 1 
+2021-10-20 21:21:27 (INFO) main line:66 -------------frgat_alpha-------------: 0.2 
+2021-10-20 21:21:27 (INFO) main line:67 -------------hidden_size-------------: 200 
+2021-10-20 21:21:27 (INFO) main line:68 -------------frgat_output_size-------------: 400 
+2021-10-20 21:21:27 (INFO) main line:69 -------------frgat_dropout-------------: 0.3 
+2021-10-20 21:21:27 (INFO) main line:70 -------------frgat_initial_dropout-------------: 0.0 
+2021-10-20 21:21:27 (INFO) main line:71 -------------frgat_output_dropout-------------: 0.2 
+2021-10-20 21:21:27 (INFO) main line:72 -------------frgat_computing_model-------------: TransE 
+2021-10-20 21:21:27 (INFO) main line:73 -------------frgat_composition_operator-------------: sub 
+2021-10-20 21:21:27 (INFO) main line:74 -------------decoder-------------
+2021-10-20 21:21:27 (INFO) main line:75 -------------model_name-------------: CE2T 
+2021-10-20 21:21:27 (INFO) main line:77 embedding_entity_dim: 100 
+2021-10-20 21:21:27 (INFO) main line:78 embedding_entity_type_dim: 200 
+2021-10-20 21:21:27 (INFO) main line:79 batch_size: 256 
+2021-10-20 21:21:27 (INFO) main line:80 learning_rate: 0.00055 
+2021-10-20 21:21:27 (INFO) main line:81 num_filters: 64 
+2021-10-20 21:21:27 (INFO) main line:82 droupt_output: 0.4 
+2021-10-20 21:21:27 (INFO) main line:83 label_smoothing: 0.1 
+2021-10-20 21:21:27 (INFO) main line:84 filt_h: 1 
+2021-10-20 21:21:27 (INFO) main line:85 filt_w: 2 
+2021-10-20 21:21:27 (INFO) main line:86 pool_h: 1 
+2021-10-20 21:21:27 (INFO) main line:87 pool_w: 2 
+2021-10-20 21:21:27 (INFO) main line:88 pool_stride: 2 
+2021-10-20 21:22:02 (INFO) main line:309 epoch: 1 train_loss: 0.017658235505223274
+2021-10-20 21:22:33 (INFO) main line:309 epoch: 2 train_loss: 0.00619964674115181
+2021-10-20 21:23:04 (INFO) main line:309 epoch: 3 train_loss: 0.003790737595409155
+2021-10-20 21:23:35 (INFO) main line:309 epoch: 4 train_loss: 0.0028174070175737143
+2021-10-20 21:24:05 (INFO) main line:309 epoch: 5 train_loss: 0.0024820812977850437
+2021-10-20 21:24:36 (INFO) main line:309 epoch: 6 train_loss: 0.0020749990362674
+2021-10-20 21:25:07 (INFO) main line:309 epoch: 7 train_loss: 0.0018734907498583198
+2021-10-20 21:25:38 (INFO) main line:309 epoch: 8 train_loss: 0.0017870134906843305
+2021-10-20 21:26:09 (INFO) main line:309 epoch: 9 train_loss: 0.001794765586964786
+2021-10-20 21:26:40 (INFO) main line:309 epoch: 10 train_loss: 0.0016265406738966703
+2021-10-20 21:27:11 (INFO) main line:309 epoch: 11 train_loss: 0.001707709045149386
+2021-10-20 21:27:42 (INFO) main line:309 epoch: 12 train_loss: 0.0016336013795807958
+2021-10-20 21:28:13 (INFO) main line:309 epoch: 13 train_loss: 0.001667174743488431
+2021-10-20 21:28:44 (INFO) main line:309 epoch: 14 train_loss: 0.0016483687795698643
+2021-10-20 21:29:14 (INFO) main line:309 epoch: 15 train_loss: 0.0015573074342682958
+2021-10-20 21:29:45 (INFO) main line:309 epoch: 16 train_loss: 0.0016856249421834946
+2021-10-20 21:30:16 (INFO) main line:309 epoch: 17 train_loss: 0.0014560229610651731
+2021-10-20 21:30:48 (INFO) main line:309 epoch: 18 train_loss: 0.0016155272023752332
+2021-10-20 21:31:19 (INFO) main line:309 epoch: 19 train_loss: 0.0015815722290426493
+2021-10-20 21:31:50 (INFO) main line:309 epoch: 20 train_loss: 0.0014472715556621552
+2021-10-20 21:32:20 (INFO) main line:309 epoch: 21 train_loss: 0.0014806357212364674
+2021-10-20 21:32:51 (INFO) main line:309 epoch: 22 train_loss: 0.0014777977485209703
+2021-10-20 21:33:22 (INFO) main line:309 epoch: 23 train_loss: 0.0015285155968740582
+2021-10-20 21:33:53 (INFO) main line:309 epoch: 24 train_loss: 0.0013332064263522625
+2021-10-20 21:34:24 (INFO) main line:309 epoch: 25 train_loss: 0.0013967901468276978
+2021-10-20 21:34:55 (INFO) main line:309 epoch: 26 train_loss: 0.0013675292721018195
+2021-10-20 21:35:26 (INFO) main line:309 epoch: 27 train_loss: 0.001315825036726892
+2021-10-20 21:35:57 (INFO) main line:309 epoch: 28 train_loss: 0.001366834039799869
+2021-10-20 21:36:28 (INFO) main line:309 epoch: 29 train_loss: 0.001279131625778973
+2021-10-20 21:36:59 (INFO) main line:309 epoch: 30 train_loss: 0.0013756375992670655
+2021-10-20 21:37:29 (INFO) main line:309 epoch: 31 train_loss: 0.0013680203119292855
+2021-10-20 21:38:00 (INFO) main line:309 epoch: 32 train_loss: 0.0014657399151474237
+2021-10-20 21:38:31 (INFO) main line:309 epoch: 33 train_loss: 0.0014121487038210034
+2021-10-20 21:39:02 (INFO) main line:309 epoch: 34 train_loss: 0.001298301387578249
+2021-10-20 21:39:33 (INFO) main line:309 epoch: 35 train_loss: 0.0014020942617207766
+2021-10-20 21:40:04 (INFO) main line:309 epoch: 36 train_loss: 0.001291225547902286
+2021-10-20 21:40:35 (INFO) main line:309 epoch: 37 train_loss: 0.0012430453207343817
+2021-10-20 21:41:06 (INFO) main line:309 epoch: 38 train_loss: 0.0012357656378298998
+2021-10-20 21:41:37 (INFO) main line:309 epoch: 39 train_loss: 0.0012590106343850493
+2021-10-20 21:42:08 (INFO) main line:309 epoch: 40 train_loss: 0.0013989511644467711
+2021-10-20 21:42:39 (INFO) main line:309 epoch: 41 train_loss: 0.0012759894598275423
+2021-10-20 21:43:10 (INFO) main line:309 epoch: 42 train_loss: 0.0013358587166294456
+2021-10-20 21:43:41 (INFO) main line:309 epoch: 43 train_loss: 0.0012266396079212427
+2021-10-20 21:44:12 (INFO) main line:309 epoch: 44 train_loss: 0.0012478205608204007
+2021-10-20 21:44:43 (INFO) main line:309 epoch: 45 train_loss: 0.001309907645918429
+2021-10-20 21:45:14 (INFO) main line:309 epoch: 46 train_loss: 0.0012513324618339539
+2021-10-20 21:45:44 (INFO) main line:309 epoch: 47 train_loss: 0.0012149089016020298
+2021-10-20 21:46:15 (INFO) main line:309 epoch: 48 train_loss: 0.0012695692712441087
+2021-10-20 21:46:46 (INFO) main line:309 epoch: 49 train_loss: 0.0012006708420813084
+2021-10-20 21:47:17 (INFO) main line:309 epoch: 50 train_loss: 0.0011675400892272592
+2021-10-20 21:47:48 (INFO) main line:309 epoch: 51 train_loss: 0.0012995360884815454
+2021-10-20 21:48:19 (INFO) main line:309 epoch: 52 train_loss: 0.0011563582811504602
+2021-10-20 21:48:50 (INFO) main line:309 epoch: 53 train_loss: 0.0012049509678035975
+2021-10-20 21:49:21 (INFO) main line:309 epoch: 54 train_loss: 0.0011828814167529345
+2021-10-20 21:49:52 (INFO) main line:309 epoch: 55 train_loss: 0.0012343012494966388
+2021-10-20 21:50:22 (INFO) main line:309 epoch: 56 train_loss: 0.0011036144569516182
+2021-10-20 21:50:53 (INFO) main line:309 epoch: 57 train_loss: 0.0011383751407265663
+2021-10-20 21:51:24 (INFO) main line:309 epoch: 58 train_loss: 0.0011491168988868594
+2021-10-20 21:51:55 (INFO) main line:309 epoch: 59 train_loss: 0.0011904403800144792
+2021-10-20 21:52:26 (INFO) main line:309 epoch: 60 train_loss: 0.0012149647809565067
+2021-10-20 21:52:57 (INFO) main line:309 epoch: 61 train_loss: 0.0010828718077391386
+2021-10-20 21:53:28 (INFO) main line:309 epoch: 62 train_loss: 0.0011501434491947293
+2021-10-20 21:53:59 (INFO) main line:309 epoch: 63 train_loss: 0.001124657574109733
+2021-10-20 21:54:29 (INFO) main line:309 epoch: 64 train_loss: 0.0011128432815894485
+2021-10-20 21:55:00 (INFO) main line:309 epoch: 65 train_loss: 0.0010414454154670238
+2021-10-20 21:55:31 (INFO) main line:309 epoch: 66 train_loss: 0.0011012685718014836
+2021-10-20 21:56:02 (INFO) main line:309 epoch: 67 train_loss: 0.0011443631956353784
+2021-10-20 21:56:33 (INFO) main line:309 epoch: 68 train_loss: 0.0010134035255759954
+2021-10-20 21:57:04 (INFO) main line:309 epoch: 69 train_loss: 0.001072625513188541
+2021-10-20 21:57:35 (INFO) main line:309 epoch: 70 train_loss: 0.0010231107007712126
+2021-10-20 21:58:06 (INFO) main line:309 epoch: 71 train_loss: 0.0011517523089423776
+2021-10-20 21:58:37 (INFO) main line:309 epoch: 72 train_loss: 0.0011117571266368032
+2021-10-20 21:59:08 (INFO) main line:309 epoch: 73 train_loss: 0.001116571482270956
+2021-10-20 21:59:39 (INFO) main line:309 epoch: 74 train_loss: 0.001115339924581349
+2021-10-20 22:00:10 (INFO) main line:309 epoch: 75 train_loss: 0.0011247153161093593
+2021-10-20 22:00:42 (INFO) main line:309 epoch: 76 train_loss: 0.0010590882739052176
+2021-10-20 22:01:13 (INFO) main line:309 epoch: 77 train_loss: 0.0010127609129995108
+2021-10-20 22:01:45 (INFO) main line:309 epoch: 78 train_loss: 0.0010738247074186802
+2021-10-20 22:02:16 (INFO) main line:309 epoch: 79 train_loss: 0.0010152615141123533
+2021-10-20 22:02:51 (INFO) main line:309 epoch: 80 train_loss: 0.0010988520225510001
+2021-10-20 22:03:22 (INFO) main line:309 epoch: 81 train_loss: 0.0010385294444859028
+2021-10-20 22:03:53 (INFO) main line:309 epoch: 82 train_loss: 0.0010184013517573476
+2021-10-20 22:04:24 (INFO) main line:309 epoch: 83 train_loss: 0.0010242786956951022
+2021-10-20 22:04:56 (INFO) main line:309 epoch: 84 train_loss: 0.0009717851062305272
+2021-10-20 22:05:27 (INFO) main line:309 epoch: 85 train_loss: 0.001052438048645854
+2021-10-20 22:05:57 (INFO) main line:309 epoch: 86 train_loss: 0.0010854514548555017
+2021-10-20 22:06:28 (INFO) main line:309 epoch: 87 train_loss: 0.0009983365889638662
+2021-10-20 22:06:59 (INFO) main line:309 epoch: 88 train_loss: 0.0010320267174392939
+2021-10-20 22:07:30 (INFO) main line:309 epoch: 89 train_loss: 0.0009666471160016954
+2021-10-20 22:08:01 (INFO) main line:309 epoch: 90 train_loss: 0.001030436484143138
+2021-10-20 22:08:32 (INFO) main line:309 epoch: 91 train_loss: 0.0009486307972110808
+2021-10-20 22:09:03 (INFO) main line:309 epoch: 92 train_loss: 0.001058875466696918
+2021-10-20 22:09:33 (INFO) main line:309 epoch: 93 train_loss: 0.0009828354232013226
+2021-10-20 22:10:04 (INFO) main line:309 epoch: 94 train_loss: 0.001096399617381394
+2021-10-20 22:10:35 (INFO) main line:309 epoch: 95 train_loss: 0.001018951996229589
+2021-10-20 22:11:06 (INFO) main line:309 epoch: 96 train_loss: 0.001061446382664144
+2021-10-20 22:11:37 (INFO) main line:309 epoch: 97 train_loss: 0.0010115972254425287
+2021-10-20 22:12:08 (INFO) main line:309 epoch: 98 train_loss: 0.001001961762085557
+2021-10-20 22:12:39 (INFO) main line:309 epoch: 99 train_loss: 0.0009669598075561225
+2021-10-20 22:13:10 (INFO) main line:309 epoch: 100 train_loss: 0.0010121610248461366
+2021-10-20 22:13:41 (INFO) main line:309 epoch: 101 train_loss: 0.0010069729760289192
+2021-10-20 22:14:11 (INFO) main line:309 epoch: 102 train_loss: 0.0009826928144320846
+2021-10-20 22:14:42 (INFO) main line:309 epoch: 103 train_loss: 0.0010129044530913234
+2021-10-20 22:15:13 (INFO) main line:309 epoch: 104 train_loss: 0.0009331698529422283
+2021-10-20 22:15:44 (INFO) main line:309 epoch: 105 train_loss: 0.0009740838431753218
+2021-10-20 22:16:15 (INFO) main line:309 epoch: 106 train_loss: 0.0010161849204450846
+2021-10-20 22:16:46 (INFO) main line:309 epoch: 107 train_loss: 0.00099943985696882
+2021-10-20 22:17:17 (INFO) main line:309 epoch: 108 train_loss: 0.0009969111997634172
+2021-10-20 22:17:48 (INFO) main line:309 epoch: 109 train_loss: 0.0009608811815269291
+2021-10-20 22:18:19 (INFO) main line:309 epoch: 110 train_loss: 0.0010318036656826735
+2021-10-20 22:18:49 (INFO) main line:309 epoch: 111 train_loss: 0.0010043340735137463
+2021-10-20 22:19:20 (INFO) main line:309 epoch: 112 train_loss: 0.0009152513230219483
+2021-10-20 22:19:51 (INFO) main line:309 epoch: 113 train_loss: 0.0009017717675305903
+2021-10-20 22:20:22 (INFO) main line:309 epoch: 114 train_loss: 0.0009763253037817776
+2021-10-20 22:20:53 (INFO) main line:309 epoch: 115 train_loss: 0.0009261680534109473
+2021-10-20 22:21:24 (INFO) main line:309 epoch: 116 train_loss: 0.0009396998211741447
+2021-10-20 22:21:55 (INFO) main line:309 epoch: 117 train_loss: 0.0009714247426018119
+2021-10-20 22:22:26 (INFO) main line:309 epoch: 118 train_loss: 0.0010044726077467203
+2021-10-20 22:22:57 (INFO) main line:309 epoch: 119 train_loss: 0.0009110926184803247
+2021-10-20 22:23:27 (INFO) main line:309 epoch: 120 train_loss: 0.0009183292277157307
+2021-10-20 22:23:58 (INFO) main line:309 epoch: 121 train_loss: 0.0009262586245313287
+2021-10-20 22:24:29 (INFO) main line:309 epoch: 122 train_loss: 0.0009486590861342847
+2021-10-20 22:25:00 (INFO) main line:309 epoch: 123 train_loss: 0.0009272746392525733
+2021-10-20 22:25:31 (INFO) main line:309 epoch: 124 train_loss: 0.0009798466926440597
+2021-10-20 22:26:02 (INFO) main line:309 epoch: 125 train_loss: 0.0009352625929750502
+2021-10-20 22:26:33 (INFO) main line:309 epoch: 126 train_loss: 0.0010030021658167243
+2021-10-20 22:27:04 (INFO) main line:309 epoch: 127 train_loss: 0.0009273161413148046
+2021-10-20 22:27:34 (INFO) main line:309 epoch: 128 train_loss: 0.0010127108544111252
+2021-10-20 22:28:05 (INFO) main line:309 epoch: 129 train_loss: 0.0009816463571041822
+2021-10-20 22:28:36 (INFO) main line:309 epoch: 130 train_loss: 0.0009014984825626016
+2021-10-20 22:29:07 (INFO) main line:309 epoch: 131 train_loss: 0.0009175908635370433
+2021-10-20 22:29:38 (INFO) main line:309 epoch: 132 train_loss: 0.0009361706906929612
+2021-10-20 22:30:09 (INFO) main line:309 epoch: 133 train_loss: 0.0009319853270426393
+2021-10-20 22:30:40 (INFO) main line:309 epoch: 134 train_loss: 0.0009571568225510418
+2021-10-20 22:31:11 (INFO) main line:309 epoch: 135 train_loss: 0.0009051683591678739
+2021-10-20 22:31:41 (INFO) main line:309 epoch: 136 train_loss: 0.0008780318894423544
+2021-10-20 22:32:12 (INFO) main line:309 epoch: 137 train_loss: 0.0009416649118065834
+2021-10-20 22:32:43 (INFO) main line:309 epoch: 138 train_loss: 0.000839782296679914
+2021-10-20 22:33:14 (INFO) main line:309 epoch: 139 train_loss: 0.0009181087953038514
+2021-10-20 22:33:45 (INFO) main line:309 epoch: 140 train_loss: 0.0009408979676663876
+2021-10-20 22:34:16 (INFO) main line:309 epoch: 141 train_loss: 0.0009863784071058035
+2021-10-20 22:34:47 (INFO) main line:309 epoch: 142 train_loss: 0.0009213280864059925
+2021-10-20 22:35:18 (INFO) main line:309 epoch: 143 train_loss: 0.0008909192983992398
+2021-10-20 22:35:48 (INFO) main line:309 epoch: 144 train_loss: 0.0008980449056252837
+2021-10-20 22:36:19 (INFO) main line:309 epoch: 145 train_loss: 0.0009545364300720394
+2021-10-20 22:36:50 (INFO) main line:309 epoch: 146 train_loss: 0.0008997173281386495
+2021-10-20 22:37:21 (INFO) main line:309 epoch: 147 train_loss: 0.0008873707847669721
+2021-10-20 22:37:52 (INFO) main line:309 epoch: 148 train_loss: 0.0008826652774587274
+2021-10-20 22:38:23 (INFO) main line:309 epoch: 149 train_loss: 0.0009502381435595453
+2021-10-20 22:38:54 (INFO) main line:309 epoch: 150 train_loss: 0.0009210589923895895
+2021-10-20 22:39:25 (INFO) main line:309 epoch: 151 train_loss: 0.0008344989619217813
+2021-10-20 22:39:55 (INFO) main line:309 epoch: 152 train_loss: 0.0009101052419282496
+2021-10-20 22:40:26 (INFO) main line:309 epoch: 153 train_loss: 0.0008541575516574085
+2021-10-20 22:40:57 (INFO) main line:309 epoch: 154 train_loss: 0.0009804778965190053
+2021-10-20 22:41:28 (INFO) main line:309 epoch: 155 train_loss: 0.0008989970665425062
+2021-10-20 22:41:59 (INFO) main line:309 epoch: 156 train_loss: 0.000870607967954129
+2021-10-20 22:42:30 (INFO) main line:309 epoch: 157 train_loss: 0.000919192738365382
+2021-10-20 22:43:01 (INFO) main line:309 epoch: 158 train_loss: 0.0009771960321813822
+2021-10-20 22:43:32 (INFO) main line:309 epoch: 159 train_loss: 0.0010003807255998254
+2021-10-20 22:44:02 (INFO) main line:309 epoch: 160 train_loss: 0.0008814723114483058
+2021-10-20 22:44:33 (INFO) main line:309 epoch: 161 train_loss: 0.0008998211123980582
+2021-10-20 22:45:04 (INFO) main line:309 epoch: 162 train_loss: 0.0008992921211756766
+2021-10-20 22:45:35 (INFO) main line:309 epoch: 163 train_loss: 0.0009205710957758129
+2021-10-20 22:46:06 (INFO) main line:309 epoch: 164 train_loss: 0.0009495446574874222
+2021-10-20 22:46:37 (INFO) main line:309 epoch: 165 train_loss: 0.0008897098596207798
+2021-10-20 22:47:08 (INFO) main line:309 epoch: 166 train_loss: 0.0008694840944372118
+2021-10-20 22:47:39 (INFO) main line:309 epoch: 167 train_loss: 0.000894654484000057
+2021-10-20 22:48:09 (INFO) main line:309 epoch: 168 train_loss: 0.0009544166969135404
+2021-10-20 22:48:40 (INFO) main line:309 epoch: 169 train_loss: 0.0008895666687749326
+2021-10-20 22:49:11 (INFO) main line:309 epoch: 170 train_loss: 0.0009032062953338027
+2021-10-20 22:49:42 (INFO) main line:309 epoch: 171 train_loss: 0.0008707395754754543
+2021-10-20 22:50:13 (INFO) main line:309 epoch: 172 train_loss: 0.0008801570511423051
+2021-10-20 22:50:44 (INFO) main line:309 epoch: 173 train_loss: 0.0008917138911783695
+2021-10-20 22:51:15 (INFO) main line:309 epoch: 174 train_loss: 0.0008371645817533135
+2021-10-20 22:51:46 (INFO) main line:309 epoch: 175 train_loss: 0.0008264054777100682
+2021-10-20 22:52:16 (INFO) main line:309 epoch: 176 train_loss: 0.0008691707625985146
+2021-10-20 22:52:47 (INFO) main line:309 epoch: 177 train_loss: 0.0009317559306509793
+2021-10-20 22:53:18 (INFO) main line:309 epoch: 178 train_loss: 0.0008914485806599259
+2021-10-20 22:53:49 (INFO) main line:309 epoch: 179 train_loss: 0.0008232683758251369
+2021-10-20 22:54:20 (INFO) main line:309 epoch: 180 train_loss: 0.0008900566026568413
+2021-10-20 22:54:51 (INFO) main line:309 epoch: 181 train_loss: 0.0008842222159728408
+2021-10-20 22:55:22 (INFO) main line:309 epoch: 182 train_loss: 0.0008529004990123212
+2021-10-20 22:55:53 (INFO) main line:309 epoch: 183 train_loss: 0.0008643727051094174
+2021-10-20 22:56:24 (INFO) main line:309 epoch: 184 train_loss: 0.0008372398442588747
+2021-10-20 22:56:54 (INFO) main line:309 epoch: 185 train_loss: 0.0008360701031051576
+2021-10-20 22:57:25 (INFO) main line:309 epoch: 186 train_loss: 0.0009273357572965324
+2021-10-20 22:57:56 (INFO) main line:309 epoch: 187 train_loss: 0.0009116600849665701
+2021-10-20 22:58:27 (INFO) main line:309 epoch: 188 train_loss: 0.0008621441083960235
+2021-10-20 22:58:58 (INFO) main line:309 epoch: 189 train_loss: 0.0008464647107757628
+2021-10-20 22:59:29 (INFO) main line:309 epoch: 190 train_loss: 0.0008706562803126872
+2021-10-20 23:00:00 (INFO) main line:309 epoch: 191 train_loss: 0.0008346192189492285
+2021-10-20 23:00:31 (INFO) main line:309 epoch: 192 train_loss: 0.0008993857773020864
+2021-10-20 23:01:01 (INFO) main line:309 epoch: 193 train_loss: 0.0009128709207288921
+2021-10-20 23:01:32 (INFO) main line:309 epoch: 194 train_loss: 0.0008960908162407577
+2021-10-20 23:02:03 (INFO) main line:309 epoch: 195 train_loss: 0.0008631855016574264
+2021-10-20 23:02:34 (INFO) main line:309 epoch: 196 train_loss: 0.0008253405685536563
+2021-10-20 23:03:05 (INFO) main line:309 epoch: 197 train_loss: 0.0008681554463692009
+2021-10-20 23:03:36 (INFO) main line:309 epoch: 198 train_loss: 0.0009013285744003952
+2021-10-20 23:04:07 (INFO) main line:309 epoch: 199 train_loss: 0.000809958903118968
+2021-10-20 23:04:38 (INFO) main line:309 epoch: 200 train_loss: 0.0008565364987589419
+2021-10-20 23:05:08 (INFO) main line:309 epoch: 201 train_loss: 0.0008743918151594698
+2021-10-20 23:05:39 (INFO) main line:309 epoch: 202 train_loss: 0.0009129293612204492
+2021-10-20 23:06:10 (INFO) main line:309 epoch: 203 train_loss: 0.0008775761816650629
+2021-10-20 23:06:41 (INFO) main line:309 epoch: 204 train_loss: 0.0008502760319970548
+2021-10-20 23:07:12 (INFO) main line:309 epoch: 205 train_loss: 0.0008519356488250196
+2021-10-20 23:07:43 (INFO) main line:309 epoch: 206 train_loss: 0.0008704758365638554
+2021-10-20 23:08:14 (INFO) main line:309 epoch: 207 train_loss: 0.0008800356299616396
+2021-10-20 23:08:45 (INFO) main line:309 epoch: 208 train_loss: 0.0008838329813443124
+2021-10-20 23:09:15 (INFO) main line:309 epoch: 209 train_loss: 0.0008728289976716042
+2021-10-20 23:09:46 (INFO) main line:309 epoch: 210 train_loss: 0.000862081185914576
+2021-10-20 23:10:17 (INFO) main line:309 epoch: 211 train_loss: 0.0008475002832710743
+2021-10-20 23:10:48 (INFO) main line:309 epoch: 212 train_loss: 0.0008339104824699461
+2021-10-20 23:11:19 (INFO) main line:309 epoch: 213 train_loss: 0.0008244913769885898
+2021-10-20 23:11:50 (INFO) main line:309 epoch: 214 train_loss: 0.0008442986290901899
+2021-10-20 23:12:21 (INFO) main line:309 epoch: 215 train_loss: 0.0008383404347114265
+2021-10-20 23:12:52 (INFO) main line:309 epoch: 216 train_loss: 0.0008484175195917487
+2021-10-20 23:13:22 (INFO) main line:309 epoch: 217 train_loss: 0.0009022945887409151
+2021-10-20 23:13:53 (INFO) main line:309 epoch: 218 train_loss: 0.0008919674437493086
+2021-10-20 23:14:24 (INFO) main line:309 epoch: 219 train_loss: 0.0008546907920390368
+2021-10-20 23:14:55 (INFO) main line:309 epoch: 220 train_loss: 0.0008283248171210289
+2021-10-20 23:15:26 (INFO) main line:309 epoch: 221 train_loss: 0.0008869777666404843
+2021-10-20 23:15:57 (INFO) main line:309 epoch: 222 train_loss: 0.0008657441940158606
+2021-10-20 23:16:28 (INFO) main line:309 epoch: 223 train_loss: 0.0008533057407476008
+2021-10-20 23:16:59 (INFO) main line:309 epoch: 224 train_loss: 0.0008036350482143462
+2021-10-20 23:17:29 (INFO) main line:309 epoch: 225 train_loss: 0.0008207100909203291
+2021-10-20 23:18:00 (INFO) main line:309 epoch: 226 train_loss: 0.0008065177244134247
+2021-10-20 23:18:31 (INFO) main line:309 epoch: 227 train_loss: 0.0008064353605732322
+2021-10-20 23:19:02 (INFO) main line:309 epoch: 228 train_loss: 0.0008469510357826948
+2021-10-20 23:19:33 (INFO) main line:309 epoch: 229 train_loss: 0.0008312591817229986
+2021-10-20 23:20:04 (INFO) main line:309 epoch: 230 train_loss: 0.0008458959637209773
+2021-10-20 23:20:35 (INFO) main line:309 epoch: 231 train_loss: 0.0008385626133531332
+2021-10-20 23:21:06 (INFO) main line:309 epoch: 232 train_loss: 0.0008426489075645804
+2021-10-20 23:21:36 (INFO) main line:309 epoch: 233 train_loss: 0.0008775258320383728
+2021-10-20 23:22:07 (INFO) main line:309 epoch: 234 train_loss: 0.0008257568115368485
+2021-10-20 23:22:38 (INFO) main line:309 epoch: 235 train_loss: 0.0007785340421833098
+2021-10-20 23:23:09 (INFO) main line:309 epoch: 236 train_loss: 0.0008440882666036487
+2021-10-20 23:23:40 (INFO) main line:309 epoch: 237 train_loss: 0.0008471563342027366
+2021-10-20 23:24:11 (INFO) main line:309 epoch: 238 train_loss: 0.0007848337409086525
+2021-10-20 23:24:42 (INFO) main line:309 epoch: 239 train_loss: 0.0009078357834368944
+2021-10-20 23:25:13 (INFO) main line:309 epoch: 240 train_loss: 0.0008325991802848876
+2021-10-20 23:25:43 (INFO) main line:309 epoch: 241 train_loss: 0.00085751514416188
+2021-10-20 23:26:14 (INFO) main line:309 epoch: 242 train_loss: 0.000815328792668879
+2021-10-20 23:26:45 (INFO) main line:309 epoch: 243 train_loss: 0.000812000478617847
+2021-10-20 23:27:16 (INFO) main line:309 epoch: 244 train_loss: 0.0008822083473205566
+2021-10-20 23:27:47 (INFO) main line:309 epoch: 245 train_loss: 0.000870823860168457
+2021-10-20 23:28:18 (INFO) main line:309 epoch: 246 train_loss: 0.0008752588764764369
+2021-10-20 23:28:49 (INFO) main line:309 epoch: 247 train_loss: 0.0008511751657351851
+2021-10-20 23:29:20 (INFO) main line:309 epoch: 248 train_loss: 0.0008193590329028666
+2021-10-20 23:29:50 (INFO) main line:309 epoch: 249 train_loss: 0.0008579770219512284
+2021-10-20 23:30:21 (INFO) main line:309 epoch: 250 train_loss: 0.0008572274819016457
+2021-10-20 23:30:52 (INFO) main line:309 epoch: 251 train_loss: 0.0008081934065558016
+2021-10-20 23:31:23 (INFO) main line:309 epoch: 252 train_loss: 0.0008287839009426534
+2021-10-20 23:31:54 (INFO) main line:309 epoch: 253 train_loss: 0.0008463809499517083
+2021-10-20 23:32:25 (INFO) main line:309 epoch: 254 train_loss: 0.0008740422199480236
+2021-10-20 23:32:56 (INFO) main line:309 epoch: 255 train_loss: 0.0008939413237385452
+2021-10-20 23:33:27 (INFO) main line:309 epoch: 256 train_loss: 0.0008522567222826183
+2021-10-20 23:33:57 (INFO) main line:309 epoch: 257 train_loss: 0.0008574716048315167
+2021-10-20 23:34:28 (INFO) main line:309 epoch: 258 train_loss: 0.0008340440108440816
+2021-10-20 23:34:59 (INFO) main line:309 epoch: 259 train_loss: 0.0008242163457907736
+2021-10-20 23:35:30 (INFO) main line:309 epoch: 260 train_loss: 0.0008711668779142201
+2021-10-20 23:36:01 (INFO) main line:309 epoch: 261 train_loss: 0.0008515016525052488
+2021-10-20 23:36:32 (INFO) main line:309 epoch: 262 train_loss: 0.0008409432484768331
+2021-10-20 23:37:03 (INFO) main line:309 epoch: 263 train_loss: 0.0008031200850382447
+2021-10-20 23:37:34 (INFO) main line:309 epoch: 264 train_loss: 0.0008520279661752284
+2021-10-20 23:38:04 (INFO) main line:309 epoch: 265 train_loss: 0.000853643985465169
+2021-10-20 23:38:35 (INFO) main line:309 epoch: 266 train_loss: 0.0007995713385753334
+2021-10-20 23:39:06 (INFO) main line:309 epoch: 267 train_loss: 0.0008322505163960159
+2021-10-20 23:39:37 (INFO) main line:309 epoch: 268 train_loss: 0.0008573091472499073
+2021-10-20 23:40:08 (INFO) main line:309 epoch: 269 train_loss: 0.0008436437929049134
+2021-10-20 23:40:39 (INFO) main line:309 epoch: 270 train_loss: 0.0008268952369689941
+2021-10-20 23:41:10 (INFO) main line:309 epoch: 271 train_loss: 0.00081702193710953
+2021-10-20 23:41:41 (INFO) main line:309 epoch: 272 train_loss: 0.0008486974402330816
+2021-10-20 23:42:11 (INFO) main line:309 epoch: 273 train_loss: 0.0008520088158547878
+2021-10-20 23:42:42 (INFO) main line:309 epoch: 274 train_loss: 0.0008523354190401733
+2021-10-20 23:43:13 (INFO) main line:309 epoch: 275 train_loss: 0.0008205571211874485
+2021-10-20 23:43:44 (INFO) main line:309 epoch: 276 train_loss: 0.0008181339944712818
+2021-10-20 23:44:15 (INFO) main line:309 epoch: 277 train_loss: 0.0008879414526745677
+2021-10-20 23:44:46 (INFO) main line:309 epoch: 278 train_loss: 0.0008211390813812613
+2021-10-20 23:45:17 (INFO) main line:309 epoch: 279 train_loss: 0.0008157548727467656
+2021-10-20 23:45:48 (INFO) main line:309 epoch: 280 train_loss: 0.0008745316881686449
+2021-10-20 23:46:19 (INFO) main line:309 epoch: 281 train_loss: 0.0008303503273054957
+2021-10-20 23:46:49 (INFO) main line:309 epoch: 282 train_loss: 0.0007946266559883952
+2021-10-20 23:47:20 (INFO) main line:309 epoch: 283 train_loss: 0.0008988935733214021
+2021-10-20 23:47:51 (INFO) main line:309 epoch: 284 train_loss: 0.0008878790540620685
+2021-10-20 23:48:22 (INFO) main line:309 epoch: 285 train_loss: 0.0008271729457192123
+2021-10-20 23:48:53 (INFO) main line:309 epoch: 286 train_loss: 0.0008145168540067971
+2021-10-20 23:49:24 (INFO) main line:309 epoch: 287 train_loss: 0.0008346449467353523
+2021-10-20 23:49:55 (INFO) main line:309 epoch: 288 train_loss: 0.000848810188472271
+2021-10-20 23:50:26 (INFO) main line:309 epoch: 289 train_loss: 0.0008328068070113659
+2021-10-20 23:50:56 (INFO) main line:309 epoch: 290 train_loss: 0.0007916942122392356
+2021-10-20 23:51:27 (INFO) main line:309 epoch: 291 train_loss: 0.0008336925529874861
+2021-10-20 23:51:58 (INFO) main line:309 epoch: 292 train_loss: 0.0008051739423535764
+2021-10-20 23:52:29 (INFO) main line:309 epoch: 293 train_loss: 0.0008227548096328974
+2021-10-20 23:53:00 (INFO) main line:309 epoch: 294 train_loss: 0.000818554894067347
+2021-10-20 23:53:31 (INFO) main line:309 epoch: 295 train_loss: 0.0008128252229653299
+2021-10-20 23:54:02 (INFO) main line:309 epoch: 296 train_loss: 0.0008317595347762108
+2021-10-20 23:54:33 (INFO) main line:309 epoch: 297 train_loss: 0.0007941541261970997
+2021-10-20 23:55:03 (INFO) main line:309 epoch: 298 train_loss: 0.0007736210827715695
+2021-10-20 23:55:34 (INFO) main line:309 epoch: 299 train_loss: 0.000862741144374013
+2021-10-20 23:56:05 (INFO) main line:309 epoch: 300 train_loss: 0.0008934239158406854
+2021-10-20 23:56:36 (INFO) main line:309 epoch: 301 train_loss: 0.0007966196862980723
+2021-10-20 23:57:07 (INFO) main line:309 epoch: 302 train_loss: 0.000816162908449769
+2021-10-20 23:57:38 (INFO) main line:309 epoch: 303 train_loss: 0.0007973721367307007
+2021-10-20 23:58:09 (INFO) main line:309 epoch: 304 train_loss: 0.0007742599118500948
+2021-10-20 23:58:40 (INFO) main line:309 epoch: 305 train_loss: 0.0008186398772522807
+2021-10-20 23:59:10 (INFO) main line:309 epoch: 306 train_loss: 0.0008011736790649593
+2021-10-20 23:59:41 (INFO) main line:309 epoch: 307 train_loss: 0.0008343739318661392
+2021-10-21 00:00:12 (INFO) main line:309 epoch: 308 train_loss: 0.0008788389968685806
+2021-10-21 00:00:43 (INFO) main line:309 epoch: 309 train_loss: 0.0008442249381914735
+2021-10-21 00:01:14 (INFO) main line:309 epoch: 310 train_loss: 0.0008307169773615897
+2021-10-21 00:01:45 (INFO) main line:309 epoch: 311 train_loss: 0.0008622444584034383
+2021-10-21 00:02:16 (INFO) main line:309 epoch: 312 train_loss: 0.0008594322134740651
+2021-10-21 00:02:47 (INFO) main line:309 epoch: 313 train_loss: 0.0008191391825675964
+2021-10-21 00:03:17 (INFO) main line:309 epoch: 314 train_loss: 0.0007927399128675461
+2021-10-21 00:03:48 (INFO) main line:309 epoch: 315 train_loss: 0.000852149969432503
+2021-10-21 00:04:19 (INFO) main line:309 epoch: 316 train_loss: 0.0007520577637478709
+2021-10-21 00:04:50 (INFO) main line:309 epoch: 317 train_loss: 0.00085338024655357
+2021-10-21 00:05:21 (INFO) main line:309 epoch: 318 train_loss: 0.0007649152539670467
+2021-10-21 00:05:52 (INFO) main line:309 epoch: 319 train_loss: 0.0008094509248621762
+2021-10-21 00:06:23 (INFO) main line:309 epoch: 320 train_loss: 0.0008333908626809716
+2021-10-21 00:06:54 (INFO) main line:309 epoch: 321 train_loss: 0.0007971998420543969
+2021-10-21 00:07:25 (INFO) main line:309 epoch: 322 train_loss: 0.0008016776409931481
+2021-10-21 00:07:55 (INFO) main line:309 epoch: 323 train_loss: 0.0008481040131300688
+2021-10-21 00:08:26 (INFO) main line:309 epoch: 324 train_loss: 0.0008530287304893136
+2021-10-21 00:08:57 (INFO) main line:309 epoch: 325 train_loss: 0.0008174062240868807
+2021-10-21 00:09:28 (INFO) main line:309 epoch: 326 train_loss: 0.0008795376634225249
+2021-10-21 00:09:59 (INFO) main line:309 epoch: 327 train_loss: 0.0007852424751035869
+2021-10-21 00:10:30 (INFO) main line:309 epoch: 328 train_loss: 0.0008621995220892131
+2021-10-21 00:11:01 (INFO) main line:309 epoch: 329 train_loss: 0.0008269088575616479
+2021-10-21 00:11:32 (INFO) main line:309 epoch: 330 train_loss: 0.0008502097916789353
+2021-10-21 00:12:02 (INFO) main line:309 epoch: 331 train_loss: 0.0008155889227055013
+2021-10-21 00:12:33 (INFO) main line:309 epoch: 332 train_loss: 0.0008110898779705167
+2021-10-21 00:13:04 (INFO) main line:309 epoch: 333 train_loss: 0.0007809438393451273
+2021-10-21 00:13:35 (INFO) main line:309 epoch: 334 train_loss: 0.0008414315525442362
+2021-10-21 00:14:06 (INFO) main line:309 epoch: 335 train_loss: 0.0007915057940408587
+2021-10-21 00:14:37 (INFO) main line:309 epoch: 336 train_loss: 0.0008050767355598509
+2021-10-21 00:15:08 (INFO) main line:309 epoch: 337 train_loss: 0.0008467786246910691
+2021-10-21 00:15:39 (INFO) main line:309 epoch: 338 train_loss: 0.0008351107826456428
+2021-10-21 00:16:09 (INFO) main line:309 epoch: 339 train_loss: 0.0007885181694291532
+2021-10-21 00:16:40 (INFO) main line:309 epoch: 340 train_loss: 0.000798368884716183
+2021-10-21 00:17:11 (INFO) main line:309 epoch: 341 train_loss: 0.0008018840453587472
+2021-10-21 00:17:42 (INFO) main line:309 epoch: 342 train_loss: 0.0008183182217180729
+2021-10-21 00:18:13 (INFO) main line:309 epoch: 343 train_loss: 0.0008193198591470718
+2021-10-21 00:18:44 (INFO) main line:309 epoch: 344 train_loss: 0.0008554760133847594
+2021-10-21 00:19:15 (INFO) main line:309 epoch: 345 train_loss: 0.0008289594552479684
+2021-10-21 00:19:45 (INFO) main line:309 epoch: 346 train_loss: 0.0008336909231729805
+2021-10-21 00:20:16 (INFO) main line:309 epoch: 347 train_loss: 0.0007785721099935472
+2021-10-21 00:20:47 (INFO) main line:309 epoch: 348 train_loss: 0.0008270536200143397
+2021-10-21 00:21:18 (INFO) main line:309 epoch: 349 train_loss: 0.0008686736691743135
+2021-10-21 00:21:49 (INFO) main line:309 epoch: 350 train_loss: 0.0007872515707276762
+2021-10-21 00:22:20 (INFO) main line:309 epoch: 351 train_loss: 0.000805213232524693
+2021-10-21 00:22:51 (INFO) main line:309 epoch: 352 train_loss: 0.0008670400711707771
+2021-10-21 00:23:22 (INFO) main line:309 epoch: 353 train_loss: 0.000809485325589776
+2021-10-21 00:23:52 (INFO) main line:309 epoch: 354 train_loss: 0.0008044579299166799
+2021-10-21 00:24:23 (INFO) main line:309 epoch: 355 train_loss: 0.0008319044136442244
+2021-10-21 00:24:54 (INFO) main line:309 epoch: 356 train_loss: 0.0008029587916098535
+2021-10-21 00:25:25 (INFO) main line:309 epoch: 357 train_loss: 0.0008465822320431471
+2021-10-21 00:25:56 (INFO) main line:309 epoch: 358 train_loss: 0.0008024646085686982
+2021-10-21 00:26:27 (INFO) main line:309 epoch: 359 train_loss: 0.0008166884654201567
+2021-10-21 00:26:58 (INFO) main line:309 epoch: 360 train_loss: 0.0008334430167451501
+2021-10-21 00:27:29 (INFO) main line:309 epoch: 361 train_loss: 0.0007998851360753179
+2021-10-21 00:27:59 (INFO) main line:309 epoch: 362 train_loss: 0.0007925396785140038
+2021-10-21 00:28:30 (INFO) main line:309 epoch: 363 train_loss: 0.0008030770113691688
+2021-10-21 00:29:01 (INFO) main line:309 epoch: 364 train_loss: 0.0007333701942116022
+2021-10-21 00:29:32 (INFO) main line:309 epoch: 365 train_loss: 0.0007829177193343639
+2021-10-21 00:30:03 (INFO) main line:309 epoch: 366 train_loss: 0.0007746464107185602
+2021-10-21 00:30:34 (INFO) main line:309 epoch: 367 train_loss: 0.0008065610891208053
+2021-10-21 00:31:05 (INFO) main line:309 epoch: 368 train_loss: 0.0007808906957507133
+2021-10-21 00:31:36 (INFO) main line:309 epoch: 369 train_loss: 0.0007705818861722946
+2021-10-21 00:32:06 (INFO) main line:309 epoch: 370 train_loss: 0.0007824234780855477
+2021-10-21 00:32:37 (INFO) main line:309 epoch: 371 train_loss: 0.0008856908534653485
+2021-10-21 00:33:08 (INFO) main line:309 epoch: 372 train_loss: 0.0008706172811798751
+2021-10-21 00:33:39 (INFO) main line:309 epoch: 373 train_loss: 0.0008038374362513423
+2021-10-21 00:34:10 (INFO) main line:309 epoch: 374 train_loss: 0.0008328317198902369
+2021-10-21 00:34:41 (INFO) main line:309 epoch: 375 train_loss: 0.0007621129625476897
+2021-10-21 00:35:12 (INFO) main line:309 epoch: 376 train_loss: 0.0008518415852449834
+2021-10-21 00:35:43 (INFO) main line:309 epoch: 377 train_loss: 0.0008315527229569852
+2021-10-21 00:36:13 (INFO) main line:309 epoch: 378 train_loss: 0.0008645380148664117
+2021-10-21 00:36:44 (INFO) main line:309 epoch: 379 train_loss: 0.0007688881014473736
+2021-10-21 00:37:15 (INFO) main line:309 epoch: 380 train_loss: 0.000824685615953058
+2021-10-21 00:37:46 (INFO) main line:309 epoch: 381 train_loss: 0.0008032772457227111
+2021-10-21 00:38:17 (INFO) main line:309 epoch: 382 train_loss: 0.0008970670751295984
+2021-10-21 00:38:48 (INFO) main line:309 epoch: 383 train_loss: 0.0007502672960981727
+2021-10-21 00:39:19 (INFO) main line:309 epoch: 384 train_loss: 0.0008386874105781317
+2021-10-21 00:39:49 (INFO) main line:309 epoch: 385 train_loss: 0.0008209302322939038
+2021-10-21 00:40:20 (INFO) main line:309 epoch: 386 train_loss: 0.0008217570139095187
+2021-10-21 00:40:51 (INFO) main line:309 epoch: 387 train_loss: 0.0008420956437475979
+2021-10-21 00:41:22 (INFO) main line:309 epoch: 388 train_loss: 0.0008369851857423782
+2021-10-21 00:41:53 (INFO) main line:309 epoch: 389 train_loss: 0.0008203993202187121
+2021-10-21 00:42:24 (INFO) main line:309 epoch: 390 train_loss: 0.0008367524133063853
+2021-10-21 00:42:55 (INFO) main line:309 epoch: 391 train_loss: 0.0007832232513464987
+2021-10-21 00:43:26 (INFO) main line:309 epoch: 392 train_loss: 0.0007875076844356954
+2021-10-21 00:43:56 (INFO) main line:309 epoch: 393 train_loss: 0.0008023598347790539
+2021-10-21 00:44:27 (INFO) main line:309 epoch: 394 train_loss: 0.0008342179353348911
+2021-10-21 00:44:58 (INFO) main line:309 epoch: 395 train_loss: 0.0008497629314661026
+2021-10-21 00:45:29 (INFO) main line:309 epoch: 396 train_loss: 0.0007716075633652508
+2021-10-21 00:46:00 (INFO) main line:309 epoch: 397 train_loss: 0.0008041543769650161
+2021-10-21 00:46:31 (INFO) main line:309 epoch: 398 train_loss: 0.0008271373808383942
+2021-10-21 00:47:02 (INFO) main line:309 epoch: 399 train_loss: 0.0007971963495947421
+2021-10-21 00:47:33 (INFO) main line:309 epoch: 400 train_loss: 0.0007704577874392271
+2021-10-21 00:48:04 (INFO) main line:309 epoch: 401 train_loss: 0.0008084552828222513
+2021-10-21 00:48:34 (INFO) main line:309 epoch: 402 train_loss: 0.0007814521086402237
+2021-10-21 00:49:05 (INFO) main line:309 epoch: 403 train_loss: 0.0008152181981131434
+2021-10-21 00:49:36 (INFO) main line:309 epoch: 404 train_loss: 0.0008332171710208058
+2021-10-21 00:50:07 (INFO) main line:309 epoch: 405 train_loss: 0.0008755598682910204
+2021-10-21 00:50:38 (INFO) main line:309 epoch: 406 train_loss: 0.000802792317699641
+2021-10-21 00:51:09 (INFO) main line:309 epoch: 407 train_loss: 0.0008040596731007099
+2021-10-21 00:51:40 (INFO) main line:309 epoch: 408 train_loss: 0.0007941494113765657
+2021-10-21 00:52:11 (INFO) main line:309 epoch: 409 train_loss: 0.0008187954081222415
+2021-10-21 00:52:41 (INFO) main line:309 epoch: 410 train_loss: 0.0008221514872275293
+2021-10-21 00:53:12 (INFO) main line:309 epoch: 411 train_loss: 0.0007964496617205441
+2021-10-21 00:53:43 (INFO) main line:309 epoch: 412 train_loss: 0.0008012413745746017
+2021-10-21 00:54:14 (INFO) main line:309 epoch: 413 train_loss: 0.0008287156815640628
+2021-10-21 00:54:45 (INFO) main line:309 epoch: 414 train_loss: 0.0007951029110699892
+2021-10-21 00:55:16 (INFO) main line:309 epoch: 415 train_loss: 0.0008409998845309019
+2021-10-21 00:55:47 (INFO) main line:309 epoch: 416 train_loss: 0.0008125607855618
+2021-10-21 00:56:18 (INFO) main line:309 epoch: 417 train_loss: 0.0008145055617205799
+2021-10-21 00:56:48 (INFO) main line:309 epoch: 418 train_loss: 0.0008085919544100761
+2021-10-21 00:57:19 (INFO) main line:309 epoch: 419 train_loss: 0.0008605138282291591
+2021-10-21 00:57:50 (INFO) main line:309 epoch: 420 train_loss: 0.0007999626686796546
+2021-10-21 00:58:21 (INFO) main line:309 epoch: 421 train_loss: 0.0008627476054243743
+2021-10-21 00:58:52 (INFO) main line:309 epoch: 422 train_loss: 0.0007678767433390021
+2021-10-21 00:59:23 (INFO) main line:309 epoch: 423 train_loss: 0.0007712629158049822
+2021-10-21 00:59:54 (INFO) main line:309 epoch: 424 train_loss: 0.0008064121939241886
+2021-10-21 01:00:25 (INFO) main line:309 epoch: 425 train_loss: 0.0007674241787753999
+2021-10-21 01:00:56 (INFO) main line:309 epoch: 426 train_loss: 0.0007590839522890747
+2021-10-21 01:01:26 (INFO) main line:309 epoch: 427 train_loss: 0.0008202227181755006
+2021-10-21 01:01:57 (INFO) main line:309 epoch: 428 train_loss: 0.0007575757917948067
+2021-10-21 01:02:28 (INFO) main line:309 epoch: 429 train_loss: 0.0007955947075970471
+2021-10-21 01:02:59 (INFO) main line:309 epoch: 430 train_loss: 0.0008239209419116378
+2021-10-21 01:03:30 (INFO) main line:309 epoch: 431 train_loss: 0.0007851998088881373
+2021-10-21 01:04:01 (INFO) main line:309 epoch: 432 train_loss: 0.0008025194401852787
+2021-10-21 01:04:32 (INFO) main line:309 epoch: 433 train_loss: 0.0007702434668317437
+2021-10-21 01:05:03 (INFO) main line:309 epoch: 434 train_loss: 0.0008090530754998326
+2021-10-21 01:05:33 (INFO) main line:309 epoch: 435 train_loss: 0.0007973170722834766
+2021-10-21 01:06:04 (INFO) main line:309 epoch: 436 train_loss: 0.0007702940492890775
+2021-10-21 01:06:35 (INFO) main line:309 epoch: 437 train_loss: 0.0008434694027528167
+2021-10-21 01:07:06 (INFO) main line:309 epoch: 438 train_loss: 0.0007654091459698975
+2021-10-21 01:07:37 (INFO) main line:309 epoch: 439 train_loss: 0.0008157827542163432
+2021-10-21 01:08:08 (INFO) main line:309 epoch: 440 train_loss: 0.000804525741841644
+2021-10-21 01:08:39 (INFO) main line:309 epoch: 441 train_loss: 0.0008439341327175498
+2021-10-21 01:09:10 (INFO) main line:309 epoch: 442 train_loss: 0.0007712612277828157
+2021-10-21 01:09:40 (INFO) main line:309 epoch: 443 train_loss: 0.0008091352647170424
+2021-10-21 01:10:11 (INFO) main line:309 epoch: 444 train_loss: 0.0008017458021640778
+2021-10-21 01:10:42 (INFO) main line:309 epoch: 445 train_loss: 0.0008609199430793524
+2021-10-21 01:11:13 (INFO) main line:309 epoch: 446 train_loss: 0.0007917407783679664
+2021-10-21 01:11:44 (INFO) main line:309 epoch: 447 train_loss: 0.0008070265175774693
+2021-10-21 01:12:15 (INFO) main line:309 epoch: 448 train_loss: 0.0008457800140604377
+2021-10-21 01:12:46 (INFO) main line:309 epoch: 449 train_loss: 0.0009118150337599218
+2021-10-21 01:13:17 (INFO) main line:309 epoch: 450 train_loss: 0.0007681980496272445
+2021-10-21 01:13:47 (INFO) main line:309 epoch: 451 train_loss: 0.0007637919625267386
+2021-10-21 01:14:18 (INFO) main line:309 epoch: 452 train_loss: 0.0007972655585035682
+2021-10-21 01:14:49 (INFO) main line:309 epoch: 453 train_loss: 0.0008416170603595674
+2021-10-21 01:15:20 (INFO) main line:309 epoch: 454 train_loss: 0.0007836261065676808
+2021-10-21 01:15:51 (INFO) main line:309 epoch: 455 train_loss: 0.0008613070822320879
+2021-10-21 01:16:22 (INFO) main line:309 epoch: 456 train_loss: 0.0008274796418845654
+2021-10-21 01:16:53 (INFO) main line:309 epoch: 457 train_loss: 0.0008093797951005399
+2021-10-21 01:17:24 (INFO) main line:309 epoch: 458 train_loss: 0.0008114895899780095
+2021-10-21 01:17:55 (INFO) main line:309 epoch: 459 train_loss: 0.0007843284984119236
+2021-10-21 01:18:25 (INFO) main line:309 epoch: 460 train_loss: 0.000809180608484894
+2021-10-21 01:18:56 (INFO) main line:309 epoch: 461 train_loss: 0.0008512004860676825
+2021-10-21 01:19:27 (INFO) main line:309 epoch: 462 train_loss: 0.0008074208162724972
+2021-10-21 01:19:58 (INFO) main line:309 epoch: 463 train_loss: 0.0008123422740027308
+2021-10-21 01:20:29 (INFO) main line:309 epoch: 464 train_loss: 0.0007674024673178792
+2021-10-21 01:21:00 (INFO) main line:309 epoch: 465 train_loss: 0.0008618436986580491
+2021-10-21 01:21:31 (INFO) main line:309 epoch: 466 train_loss: 0.0007942105876281857
+2021-10-21 01:22:02 (INFO) main line:309 epoch: 467 train_loss: 0.0008697518496774137
+2021-10-21 01:22:32 (INFO) main line:309 epoch: 468 train_loss: 0.000826261646579951
+2021-10-21 01:23:03 (INFO) main line:309 epoch: 469 train_loss: 0.0008213611436076462
+2021-10-21 01:23:34 (INFO) main line:309 epoch: 470 train_loss: 0.0008031815523281693
+2021-10-21 01:24:05 (INFO) main line:309 epoch: 471 train_loss: 0.0008237282163463533
+2021-10-21 01:24:36 (INFO) main line:309 epoch: 472 train_loss: 0.0008572536753490567
+2021-10-21 01:25:07 (INFO) main line:309 epoch: 473 train_loss: 0.0008346810936927795
+2021-10-21 01:25:38 (INFO) main line:309 epoch: 474 train_loss: 0.000832884747069329
+2021-10-21 01:26:09 (INFO) main line:309 epoch: 475 train_loss: 0.000783980474807322
+2021-10-21 01:26:40 (INFO) main line:309 epoch: 476 train_loss: 0.0008235290297307074
+2021-10-21 01:27:10 (INFO) main line:309 epoch: 477 train_loss: 0.0008649189257994294
+2021-10-21 01:27:41 (INFO) main line:309 epoch: 478 train_loss: 0.0007787215290591121
+2021-10-21 01:28:12 (INFO) main line:309 epoch: 479 train_loss: 0.0008056425722315907
+2021-10-21 01:28:43 (INFO) main line:309 epoch: 480 train_loss: 0.0008431908790953457
+2021-10-21 01:29:14 (INFO) main line:309 epoch: 481 train_loss: 0.0007873529102653265
+2021-10-21 01:29:45 (INFO) main line:309 epoch: 482 train_loss: 0.0008166931802406907
+2021-10-21 01:30:16 (INFO) main line:309 epoch: 483 train_loss: 0.0007720195571891963
+2021-10-21 01:30:47 (INFO) main line:309 epoch: 484 train_loss: 0.0008502722484990954
+2021-10-21 01:31:17 (INFO) main line:309 epoch: 485 train_loss: 0.0008545851451344788
+2021-10-21 01:31:48 (INFO) main line:309 epoch: 486 train_loss: 0.0008377379854209721
+2021-10-21 01:32:19 (INFO) main line:309 epoch: 487 train_loss: 0.0008122550789266825
+2021-10-21 01:32:50 (INFO) main line:309 epoch: 488 train_loss: 0.0008187757921405137
+2021-10-21 01:33:21 (INFO) main line:309 epoch: 489 train_loss: 0.0007935140165500343
+2021-10-21 01:33:52 (INFO) main line:309 epoch: 490 train_loss: 0.0007883027428761125
+2021-10-21 01:34:23 (INFO) main line:309 epoch: 491 train_loss: 0.0008136458927765489
+2021-10-21 01:34:54 (INFO) main line:309 epoch: 492 train_loss: 0.0007912093424238265
+2021-10-21 01:35:24 (INFO) main line:309 epoch: 493 train_loss: 0.0007837424054741859
+2021-10-21 01:35:55 (INFO) main line:309 epoch: 494 train_loss: 0.0008192157838493586
+2021-10-21 01:36:26 (INFO) main line:309 epoch: 495 train_loss: 0.000770394632127136
+2021-10-21 01:36:57 (INFO) main line:309 epoch: 496 train_loss: 0.0007787799113430083
+2021-10-21 01:37:28 (INFO) main line:309 epoch: 497 train_loss: 0.0007916371105238795
+2021-10-21 01:37:59 (INFO) main line:309 epoch: 498 train_loss: 0.0008247313089668751
+2021-10-21 01:38:30 (INFO) main line:309 epoch: 499 train_loss: 0.0008527180179953575
+2021-10-21 01:39:01 (INFO) main line:309 epoch: 500 train_loss: 0.0008067400776781142
+2021-10-21 01:39:01 (INFO) main line:314 ------------------------------------it:500
+2021-10-21 01:39:24 (INFO) main line:157 Hits @10: 0.5085380116959064
+2021-10-21 01:39:24 (INFO) main line:159 Hits @3: 0.36360233918128654
+2021-10-21 01:39:24 (INFO) main line:161 Hits @1: 0.23897076023391814
+2021-10-21 01:39:25 (INFO) main line:163 Mean reciprocal rank: 0.329551552697555
+2021-10-21 01:39:55 (INFO) main line:309 epoch: 501 train_loss: 0.0008607199997641146
+2021-10-21 01:40:26 (INFO) main line:309 epoch: 502 train_loss: 0.0008257204899564385
+2021-10-21 01:40:57 (INFO) main line:309 epoch: 503 train_loss: 0.0007924213423393667
+2021-10-21 01:41:28 (INFO) main line:309 epoch: 504 train_loss: 0.0008366759866476059
+2021-10-21 01:41:59 (INFO) main line:309 epoch: 505 train_loss: 0.0007613152847625315
+2021-10-21 01:42:30 (INFO) main line:309 epoch: 506 train_loss: 0.0008261181064881384
+2021-10-21 01:43:01 (INFO) main line:309 epoch: 507 train_loss: 0.0008094756049104035
+2021-10-21 01:43:31 (INFO) main line:309 epoch: 508 train_loss: 0.0008976503158919513
+2021-10-21 01:44:02 (INFO) main line:309 epoch: 509 train_loss: 0.0008377641788683832
+2021-10-21 01:44:33 (INFO) main line:309 epoch: 510 train_loss: 0.0007572132162749767
+2021-10-21 01:44:33 (INFO) main line:314 ------------------------------------it:510
+2021-10-21 01:44:57 (INFO) main line:157 Hits @10: 0.5085614035087719
+2021-10-21 01:44:57 (INFO) main line:159 Hits @3: 0.36409356725146197
+2021-10-21 01:44:57 (INFO) main line:161 Hits @1: 0.23876023391812864
+2021-10-21 01:44:57 (INFO) main line:163 Mean reciprocal rank: 0.3295579168125499
+2021-10-21 01:45:28 (INFO) main line:309 epoch: 511 train_loss: 0.000831903307698667
+2021-10-21 01:45:59 (INFO) main line:309 epoch: 512 train_loss: 0.0008154488168656826
+2021-10-21 01:46:30 (INFO) main line:309 epoch: 513 train_loss: 0.0008731512352824211
+2021-10-21 01:47:01 (INFO) main line:309 epoch: 514 train_loss: 0.0007762453169561923
+2021-10-21 01:47:32 (INFO) main line:309 epoch: 515 train_loss: 0.0007954371976666152
+2021-10-21 01:48:03 (INFO) main line:309 epoch: 516 train_loss: 0.0008661173633299768
+2021-10-21 01:48:34 (INFO) main line:309 epoch: 517 train_loss: 0.0007956802728585899
+2021-10-21 01:49:04 (INFO) main line:309 epoch: 518 train_loss: 0.0007421147893182933
+2021-10-21 01:49:35 (INFO) main line:309 epoch: 519 train_loss: 0.0007926972466520965
+2021-10-21 01:50:06 (INFO) main line:309 epoch: 520 train_loss: 0.0008465379942208529
+2021-10-21 01:50:06 (INFO) main line:314 ------------------------------------it:520
+2021-10-21 01:50:30 (INFO) main line:157 Hits @10: 0.5081169590643275
+2021-10-21 01:50:30 (INFO) main line:159 Hits @3: 0.3639766081871345
+2021-10-21 01:50:30 (INFO) main line:161 Hits @1: 0.2391111111111111
+2021-10-21 01:50:30 (INFO) main line:163 Mean reciprocal rank: 0.3296425237808943
+2021-10-21 01:51:01 (INFO) main line:309 epoch: 521 train_loss: 0.0007399663445539773
+2021-10-21 01:51:32 (INFO) main line:309 epoch: 522 train_loss: 0.0008423180552199483
+2021-10-21 01:52:03 (INFO) main line:309 epoch: 523 train_loss: 0.0007719246787019074
+2021-10-21 01:52:34 (INFO) main line:309 epoch: 524 train_loss: 0.0008489894098602235
+2021-10-21 01:53:05 (INFO) main line:309 epoch: 525 train_loss: 0.0008083847933448851
+2021-10-21 01:53:36 (INFO) main line:309 epoch: 526 train_loss: 0.0007609141757711768
+2021-10-21 01:54:06 (INFO) main line:309 epoch: 527 train_loss: 0.0008084211149252951
+2021-10-21 01:54:37 (INFO) main line:309 epoch: 528 train_loss: 0.0008208591607399285
+2021-10-21 01:55:08 (INFO) main line:309 epoch: 529 train_loss: 0.000824529561214149
+2021-10-21 01:55:39 (INFO) main line:309 epoch: 530 train_loss: 0.0007460747146978974
+2021-10-21 01:55:39 (INFO) main line:314 ------------------------------------it:530
+2021-10-21 01:56:03 (INFO) main line:157 Hits @10: 0.5085380116959064
+2021-10-21 01:56:03 (INFO) main line:159 Hits @3: 0.3640701754385965
+2021-10-21 01:56:03 (INFO) main line:161 Hits @1: 0.23824561403508773
+2021-10-21 01:56:03 (INFO) main line:163 Mean reciprocal rank: 0.3290825879232547
+2021-10-21 01:56:34 (INFO) main line:309 epoch: 531 train_loss: 0.0007986864075064659
+2021-10-21 01:57:05 (INFO) main line:309 epoch: 532 train_loss: 0.0008445080602541566
+2021-10-21 01:57:36 (INFO) main line:309 epoch: 533 train_loss: 0.0007516417535953224
+2021-10-21 01:58:06 (INFO) main line:309 epoch: 534 train_loss: 0.0008675093413330615
+2021-10-21 01:58:37 (INFO) main line:309 epoch: 535 train_loss: 0.0008266381337307394
+2021-10-21 01:59:08 (INFO) main line:309 epoch: 536 train_loss: 0.000827693787869066
+2021-10-21 01:59:39 (INFO) main line:309 epoch: 537 train_loss: 0.0007402722258120775
+2021-10-21 02:00:10 (INFO) main line:309 epoch: 538 train_loss: 0.0007887487881816924
+2021-10-21 02:00:41 (INFO) main line:309 epoch: 539 train_loss: 0.0008004887495189905
+2021-10-21 02:01:12 (INFO) main line:309 epoch: 540 train_loss: 0.0007876318413764238
+2021-10-21 02:01:12 (INFO) main line:314 ------------------------------------it:540
+2021-10-21 02:01:36 (INFO) main line:157 Hits @10: 0.5090058479532164
+2021-10-21 02:01:36 (INFO) main line:159 Hits @3: 0.36423391812865497
+2021-10-21 02:01:36 (INFO) main line:161 Hits @1: 0.23901754385964913
+2021-10-21 02:01:36 (INFO) main line:163 Mean reciprocal rank: 0.3296300214700937
+2021-10-21 02:02:07 (INFO) main line:309 epoch: 541 train_loss: 0.0007737708510830998
+2021-10-21 02:02:38 (INFO) main line:309 epoch: 542 train_loss: 0.0008556129178032279
+2021-10-21 02:03:09 (INFO) main line:309 epoch: 543 train_loss: 0.0008290407713502645
+2021-10-21 02:03:40 (INFO) main line:309 epoch: 544 train_loss: 0.0008436200441792607
+2021-10-21 02:04:10 (INFO) main line:309 epoch: 545 train_loss: 0.0008075351943261921
+2021-10-21 02:04:41 (INFO) main line:309 epoch: 546 train_loss: 0.0008030541357584298
+2021-10-21 02:05:12 (INFO) main line:309 epoch: 547 train_loss: 0.000862146494910121
+2021-10-21 02:05:43 (INFO) main line:309 epoch: 548 train_loss: 0.0008113297517411411
+2021-10-21 02:06:14 (INFO) main line:309 epoch: 549 train_loss: 0.0008691279799677432
+2021-10-21 02:06:45 (INFO) main line:309 epoch: 550 train_loss: 0.0008610222139395773
+2021-10-21 02:06:45 (INFO) main line:314 ------------------------------------it:550
+2021-10-21 02:07:09 (INFO) main line:157 Hits @10: 0.5089356725146199
+2021-10-21 02:07:09 (INFO) main line:159 Hits @3: 0.3647251461988304
+2021-10-21 02:07:09 (INFO) main line:161 Hits @1: 0.23901754385964913
+2021-10-21 02:07:09 (INFO) main line:163 Mean reciprocal rank: 0.32993616176503776
+2021-10-21 02:07:39 (INFO) main line:309 epoch: 551 train_loss: 0.0007827027584426105
+2021-10-21 02:08:10 (INFO) main line:309 epoch: 552 train_loss: 0.0008442462421953678
+2021-10-21 02:08:40 (INFO) main line:309 epoch: 553 train_loss: 0.0007916977046988904
+2021-10-21 02:09:11 (INFO) main line:309 epoch: 554 train_loss: 0.0008446139981970191
+2021-10-21 02:09:41 (INFO) main line:309 epoch: 555 train_loss: 0.000759885529987514
+2021-10-21 02:10:11 (INFO) main line:309 epoch: 556 train_loss: 0.0007800820167176425
+2021-10-21 02:10:42 (INFO) main line:309 epoch: 557 train_loss: 0.0008227650541812181
+2021-10-21 02:11:12 (INFO) main line:309 epoch: 558 train_loss: 0.0007601928664371371
+2021-10-21 02:11:42 (INFO) main line:309 epoch: 559 train_loss: 0.0008330460404977202
+2021-10-21 02:12:13 (INFO) main line:309 epoch: 560 train_loss: 0.0008565671159885824
+2021-10-21 02:12:13 (INFO) main line:314 ------------------------------------it:560
+2021-10-21 02:12:37 (INFO) main line:157 Hits @10: 0.5087953216374269
+2021-10-21 02:12:37 (INFO) main line:159 Hits @3: 0.3643508771929825
+2021-10-21 02:12:37 (INFO) main line:161 Hits @1: 0.23890058479532164
+2021-10-21 02:12:37 (INFO) main line:163 Mean reciprocal rank: 0.32984381179984107
+2021-10-21 02:13:07 (INFO) main line:309 epoch: 561 train_loss: 0.0008387452107854187
+2021-10-21 02:13:38 (INFO) main line:309 epoch: 562 train_loss: 0.0008205948397517204
+2021-10-21 02:14:08 (INFO) main line:309 epoch: 563 train_loss: 0.000863460882101208
+2021-10-21 02:14:38 (INFO) main line:309 epoch: 564 train_loss: 0.0008550628554075956
+2021-10-21 02:15:09 (INFO) main line:309 epoch: 565 train_loss: 0.0007823232444934547
+2021-10-21 02:15:39 (INFO) main line:309 epoch: 566 train_loss: 0.0007956005283631384
+2021-10-21 02:16:09 (INFO) main line:309 epoch: 567 train_loss: 0.0007910232525318861
+2021-10-21 02:16:40 (INFO) main line:309 epoch: 568 train_loss: 0.0007809305679984391
+2021-10-21 02:17:10 (INFO) main line:309 epoch: 569 train_loss: 0.0007633483037352562
+2021-10-21 02:17:40 (INFO) main line:309 epoch: 570 train_loss: 0.0007432380225509405
+2021-10-21 02:17:41 (INFO) main line:314 ------------------------------------it:570
+2021-10-21 02:18:05 (INFO) main line:157 Hits @10: 0.5094502923976608
+2021-10-21 02:18:05 (INFO) main line:159 Hits @3: 0.36402339181286547
+2021-10-21 02:18:05 (INFO) main line:161 Hits @1: 0.23887719298245613
+2021-10-21 02:18:05 (INFO) main line:163 Mean reciprocal rank: 0.32970243075595174
+2021-10-21 02:18:35 (INFO) main line:309 epoch: 571 train_loss: 0.0008047775481827557
+2021-10-21 02:19:06 (INFO) main line:309 epoch: 572 train_loss: 0.0007909022970125079
+2021-10-21 02:19:36 (INFO) main line:309 epoch: 573 train_loss: 0.0007557267090305686
+2021-10-21 02:20:06 (INFO) main line:309 epoch: 574 train_loss: 0.0008462021360173821
+2021-10-21 02:20:37 (INFO) main line:309 epoch: 575 train_loss: 0.000819868000689894
+2021-10-21 02:21:07 (INFO) main line:309 epoch: 576 train_loss: 0.0008032898185774684
+2021-10-21 02:21:38 (INFO) main line:309 epoch: 577 train_loss: 0.0007983205141499639
+2021-10-21 02:22:08 (INFO) main line:309 epoch: 578 train_loss: 0.0007777103455737233
+2021-10-21 02:22:38 (INFO) main line:309 epoch: 579 train_loss: 0.0008541241404600441
+2021-10-21 02:23:09 (INFO) main line:309 epoch: 580 train_loss: 0.0007836550357751548
+2021-10-21 02:23:09 (INFO) main line:314 ------------------------------------it:580
+2021-10-21 02:23:32 (INFO) main line:157 Hits @10: 0.5088421052631579
+2021-10-21 02:23:32 (INFO) main line:159 Hits @3: 0.36409356725146197
+2021-10-21 02:23:32 (INFO) main line:161 Hits @1: 0.2391111111111111
+2021-10-21 02:23:32 (INFO) main line:163 Mean reciprocal rank: 0.32981866168926244
+2021-10-21 02:24:02 (INFO) main line:309 epoch: 581 train_loss: 0.0008257917943410575
+2021-10-21 02:24:32 (INFO) main line:309 epoch: 582 train_loss: 0.00083880964666605
+2021-10-21 02:25:03 (INFO) main line:309 epoch: 583 train_loss: 0.0008573914528824389
+2021-10-21 02:25:33 (INFO) main line:309 epoch: 584 train_loss: 0.00079073675442487
+2021-10-21 02:26:04 (INFO) main line:309 epoch: 585 train_loss: 0.0008323122165165842
+2021-10-21 02:26:34 (INFO) main line:309 epoch: 586 train_loss: 0.000802095455583185
+2021-10-21 02:27:04 (INFO) main line:309 epoch: 587 train_loss: 0.0008120934944599867
+2021-10-21 02:27:35 (INFO) main line:309 epoch: 588 train_loss: 0.0008222144679166377
+2021-10-21 02:28:05 (INFO) main line:309 epoch: 589 train_loss: 0.0007833353593014181
+2021-10-21 02:28:36 (INFO) main line:309 epoch: 590 train_loss: 0.0007698513800278306
+2021-10-21 02:28:36 (INFO) main line:314 ------------------------------------it:590
+2021-10-21 02:28:58 (INFO) main line:157 Hits @10: 0.5087719298245614
+2021-10-21 02:28:58 (INFO) main line:159 Hits @3: 0.36460818713450294
+2021-10-21 02:28:58 (INFO) main line:161 Hits @1: 0.23908771929824563
+2021-10-21 02:28:58 (INFO) main line:163 Mean reciprocal rank: 0.32985344175178755
+2021-10-21 02:29:28 (INFO) main line:309 epoch: 591 train_loss: 0.0007906365790404379
+2021-10-21 02:29:58 (INFO) main line:309 epoch: 592 train_loss: 0.0008022749680094421
+2021-10-21 02:30:29 (INFO) main line:309 epoch: 593 train_loss: 0.0007853310671634972
+2021-10-21 02:30:59 (INFO) main line:309 epoch: 594 train_loss: 0.0008228664519265294
+2021-10-21 02:31:29 (INFO) main line:309 epoch: 595 train_loss: 0.0008109923219308257
+2021-10-21 02:32:00 (INFO) main line:309 epoch: 596 train_loss: 0.0007948110578581691
+2021-10-21 02:32:30 (INFO) main line:309 epoch: 597 train_loss: 0.0008236235589720309
+2021-10-21 02:33:01 (INFO) main line:309 epoch: 598 train_loss: 0.0008135467069223523
+2021-10-21 02:33:31 (INFO) main line:309 epoch: 599 train_loss: 0.0008243907941505313
+2021-10-21 02:34:01 (INFO) main line:309 epoch: 600 train_loss: 0.000792397593613714
+2021-10-21 02:34:01 (INFO) main line:314 ------------------------------------it:600
+2021-10-21 02:34:23 (INFO) main line:157 Hits @10: 0.5087251461988304
+2021-10-21 02:34:23 (INFO) main line:159 Hits @3: 0.36425730994152045
+2021-10-21 02:34:23 (INFO) main line:161 Hits @1: 0.23869005847953217
+2021-10-21 02:34:23 (INFO) main line:163 Mean reciprocal rank: 0.329369015347124
+2021-10-21 02:34:54 (INFO) main line:309 epoch: 601 train_loss: 0.0008270937250927091
+2021-10-21 02:35:24 (INFO) main line:309 epoch: 602 train_loss: 0.0007714845123700798
+2021-10-21 02:35:55 (INFO) main line:309 epoch: 603 train_loss: 0.0008150971261784434
+2021-10-21 02:36:25 (INFO) main line:309 epoch: 604 train_loss: 0.0008513475186191499
+2021-10-21 02:36:55 (INFO) main line:309 epoch: 605 train_loss: 0.0008123026927933097
+2021-10-21 02:37:26 (INFO) main line:309 epoch: 606 train_loss: 0.0008478795643895864
+2021-10-21 02:37:56 (INFO) main line:309 epoch: 607 train_loss: 0.0008094385266304016
+2021-10-21 02:38:26 (INFO) main line:309 epoch: 608 train_loss: 0.0008244612254202366
+2021-10-21 02:38:57 (INFO) main line:309 epoch: 609 train_loss: 0.0007874213042668998
+2021-10-21 02:39:27 (INFO) main line:309 epoch: 610 train_loss: 0.0008531840285286307
+2021-10-21 02:39:27 (INFO) main line:314 ------------------------------------it:610
+2021-10-21 02:39:50 (INFO) main line:157 Hits @10: 0.5089824561403509
+2021-10-21 02:39:50 (INFO) main line:159 Hits @3: 0.36381286549707603
+2021-10-21 02:39:50 (INFO) main line:161 Hits @1: 0.2385730994152047
+2021-10-21 02:39:50 (INFO) main line:163 Mean reciprocal rank: 0.3294134284617185
+2021-10-21 02:40:20 (INFO) main line:309 epoch: 611 train_loss: 0.000789940997492522
+2021-10-21 02:40:51 (INFO) main line:309 epoch: 612 train_loss: 0.0007827200461179018
+2021-10-21 02:41:21 (INFO) main line:309 epoch: 613 train_loss: 0.000862018670886755
+2021-10-21 02:41:51 (INFO) main line:309 epoch: 614 train_loss: 0.000792896666098386
+2021-10-21 02:42:22 (INFO) main line:309 epoch: 615 train_loss: 0.000825149065349251
+2021-10-21 02:42:52 (INFO) main line:309 epoch: 616 train_loss: 0.0007960307411849499
+2021-10-21 02:43:22 (INFO) main line:309 epoch: 617 train_loss: 0.0008340847562067211
+2021-10-21 02:43:53 (INFO) main line:309 epoch: 618 train_loss: 0.0008094168151728809
+2021-10-21 02:44:23 (INFO) main line:309 epoch: 619 train_loss: 0.0008210760424844921
+2021-10-21 02:44:54 (INFO) main line:309 epoch: 620 train_loss: 0.0007856953307054937
+2021-10-21 02:44:54 (INFO) main line:314 ------------------------------------it:620
+2021-10-21 02:45:17 (INFO) main line:157 Hits @10: 0.5091929824561403
+2021-10-21 02:45:17 (INFO) main line:159 Hits @3: 0.3642105263157895
+2021-10-21 02:45:17 (INFO) main line:161 Hits @1: 0.23908771929824563
+2021-10-21 02:45:17 (INFO) main line:163 Mean reciprocal rank: 0.3297459130769115
+2021-10-21 02:45:48 (INFO) main line:309 epoch: 621 train_loss: 0.000777997134719044
+2021-10-21 02:46:18 (INFO) main line:309 epoch: 622 train_loss: 0.0008811374427750707
+2021-10-21 02:46:48 (INFO) main line:309 epoch: 623 train_loss: 0.0007620832766406238
+2021-10-21 02:47:19 (INFO) main line:309 epoch: 624 train_loss: 0.0008567982586100698
+2021-10-21 02:47:49 (INFO) main line:309 epoch: 625 train_loss: 0.000831521290820092
+2021-10-21 02:48:19 (INFO) main line:309 epoch: 626 train_loss: 0.0008369792485609651
+2021-10-21 02:48:50 (INFO) main line:309 epoch: 627 train_loss: 0.0007858211756683886
+2021-10-21 02:49:20 (INFO) main line:309 epoch: 628 train_loss: 0.000871542317327112
+2021-10-21 02:49:51 (INFO) main line:309 epoch: 629 train_loss: 0.0008077127858996391
+2021-10-21 02:50:21 (INFO) main line:309 epoch: 630 train_loss: 0.0008108094916678965
+2021-10-21 02:50:21 (INFO) main line:314 ------------------------------------it:630
+2021-10-21 02:50:44 (INFO) main line:157 Hits @10: 0.5091929824561403
+2021-10-21 02:50:44 (INFO) main line:159 Hits @3: 0.3645847953216374
+2021-10-21 02:50:44 (INFO) main line:161 Hits @1: 0.23866666666666667
+2021-10-21 02:50:44 (INFO) main line:163 Mean reciprocal rank: 0.3295484605486696
+2021-10-21 02:51:14 (INFO) main line:309 epoch: 631 train_loss: 0.0008002783870324492
+2021-10-21 02:51:45 (INFO) main line:309 epoch: 632 train_loss: 0.0008051871554926038
+2021-10-21 02:52:15 (INFO) main line:309 epoch: 633 train_loss: 0.0008195077534765005
+2021-10-21 02:52:45 (INFO) main line:309 epoch: 634 train_loss: 0.000800772977527231
+2021-10-21 02:53:16 (INFO) main line:309 epoch: 635 train_loss: 0.0008001587120816112
+2021-10-21 02:53:46 (INFO) main line:309 epoch: 636 train_loss: 0.0007913096924312413
+2021-10-21 02:54:17 (INFO) main line:309 epoch: 637 train_loss: 0.0008026420837268233
+2021-10-21 02:54:47 (INFO) main line:309 epoch: 638 train_loss: 0.0008415951742790639
+2021-10-21 02:55:17 (INFO) main line:309 epoch: 639 train_loss: 0.0007762160385027528
+2021-10-21 02:55:48 (INFO) main line:309 epoch: 640 train_loss: 0.0008234773995354772
+2021-10-21 02:55:48 (INFO) main line:314 ------------------------------------it:640
+2021-10-21 02:56:11 (INFO) main line:157 Hits @10: 0.5090760233918129
+2021-10-21 02:56:11 (INFO) main line:159 Hits @3: 0.364280701754386
+2021-10-21 02:56:11 (INFO) main line:161 Hits @1: 0.23927485380116958
+2021-10-21 02:56:11 (INFO) main line:163 Mean reciprocal rank: 0.3299193154698493
+2021-10-21 02:56:41 (INFO) main line:309 epoch: 641 train_loss: 0.0008038527448661625
+2021-10-21 02:57:12 (INFO) main line:309 epoch: 642 train_loss: 0.0008058949606493115
+2021-10-21 02:57:42 (INFO) main line:309 epoch: 643 train_loss: 0.0007836730219423771
+2021-10-21 02:58:12 (INFO) main line:309 epoch: 644 train_loss: 0.0007663602009415627
+2021-10-21 02:58:43 (INFO) main line:309 epoch: 645 train_loss: 0.0007930823485367
+2021-10-21 02:59:13 (INFO) main line:309 epoch: 646 train_loss: 0.0008554582018405199
+2021-10-21 02:59:44 (INFO) main line:309 epoch: 647 train_loss: 0.0008263626368716359
+2021-10-21 03:00:14 (INFO) main line:309 epoch: 648 train_loss: 0.0007817439618520439
+2021-10-21 03:00:44 (INFO) main line:309 epoch: 649 train_loss: 0.0008749724365770817
+2021-10-21 03:01:15 (INFO) main line:309 epoch: 650 train_loss: 0.0007836568402126431
+2021-10-21 03:01:15 (INFO) main line:314 ------------------------------------it:650
+2021-10-21 03:01:37 (INFO) main line:157 Hits @10: 0.5085380116959064
+2021-10-21 03:01:37 (INFO) main line:159 Hits @3: 0.3645847953216374
+2021-10-21 03:01:37 (INFO) main line:161 Hits @1: 0.2383625730994152
+2021-10-21 03:01:37 (INFO) main line:163 Mean reciprocal rank: 0.32936435791139945
+2021-10-21 03:02:08 (INFO) main line:309 epoch: 651 train_loss: 0.0008008193108253181
+2021-10-21 03:02:38 (INFO) main line:309 epoch: 652 train_loss: 0.0007686034077778459
+2021-10-21 03:03:08 (INFO) main line:309 epoch: 653 train_loss: 0.0008335931343026459
+2021-10-21 03:03:39 (INFO) main line:309 epoch: 654 train_loss: 0.0008013087790459394
+2021-10-21 03:04:09 (INFO) main line:309 epoch: 655 train_loss: 0.0008037032093852758
+2021-10-21 03:04:40 (INFO) main line:309 epoch: 656 train_loss: 0.0008557397522963583
+2021-10-21 03:05:10 (INFO) main line:309 epoch: 657 train_loss: 0.0008393275202251971
+2021-10-21 03:05:40 (INFO) main line:309 epoch: 658 train_loss: 0.0008344525122083724
+2021-10-21 03:06:11 (INFO) main line:309 epoch: 659 train_loss: 0.000845849746838212
+2021-10-21 03:06:41 (INFO) main line:309 epoch: 660 train_loss: 0.0008638305007480085
+2021-10-21 03:06:41 (INFO) main line:314 ------------------------------------it:660
+2021-10-21 03:07:05 (INFO) main line:157 Hits @10: 0.5092397660818714
+2021-10-21 03:07:05 (INFO) main line:159 Hits @3: 0.3644210526315789
+2021-10-21 03:07:05 (INFO) main line:161 Hits @1: 0.23908771929824563
+2021-10-21 03:07:05 (INFO) main line:163 Mean reciprocal rank: 0.32990474907109646
+2021-10-21 03:07:36 (INFO) main line:309 epoch: 661 train_loss: 0.0008009923039935529
+2021-10-21 03:08:06 (INFO) main line:309 epoch: 662 train_loss: 0.0008007915457710624
+2021-10-21 03:08:36 (INFO) main line:309 epoch: 663 train_loss: 0.0007575832423754036
+2021-10-21 03:09:07 (INFO) main line:309 epoch: 664 train_loss: 0.0007551375892944634
+2021-10-21 03:09:37 (INFO) main line:309 epoch: 665 train_loss: 0.0007751237717457116
+2021-10-21 03:10:08 (INFO) main line:309 epoch: 666 train_loss: 0.0007688135956414044
+2021-10-21 03:10:38 (INFO) main line:309 epoch: 667 train_loss: 0.0007941754884086549
+2021-10-21 03:11:08 (INFO) main line:309 epoch: 668 train_loss: 0.000789515906944871
+2021-10-21 03:11:39 (INFO) main line:309 epoch: 669 train_loss: 0.0008323502843268216
+2021-10-21 03:12:09 (INFO) main line:309 epoch: 670 train_loss: 0.0008105726446956396
+2021-10-21 03:12:09 (INFO) main line:314 ------------------------------------it:670
+2021-10-21 03:12:33 (INFO) main line:157 Hits @10: 0.5085380116959064
+2021-10-21 03:12:33 (INFO) main line:159 Hits @3: 0.36416374269005847
+2021-10-21 03:12:33 (INFO) main line:161 Hits @1: 0.23829239766081872
+2021-10-21 03:12:33 (INFO) main line:163 Mean reciprocal rank: 0.3292531006407895
+2021-10-21 03:13:03 (INFO) main line:309 epoch: 671 train_loss: 0.0007719324203208089
+2021-10-21 03:13:33 (INFO) main line:309 epoch: 672 train_loss: 0.0007742061279714108
+2021-10-21 03:14:04 (INFO) main line:309 epoch: 673 train_loss: 0.0008135068346746266
+2021-10-21 03:14:34 (INFO) main line:309 epoch: 674 train_loss: 0.0007908042753115296
+2021-10-21 03:15:04 (INFO) main line:309 epoch: 675 train_loss: 0.0008199946023523808
+2021-10-21 03:15:35 (INFO) main line:309 epoch: 676 train_loss: 0.0007806328358128667
+2021-10-21 03:16:05 (INFO) main line:309 epoch: 677 train_loss: 0.0008543615113012493
+2021-10-21 03:16:36 (INFO) main line:309 epoch: 678 train_loss: 0.0008511267951689661
+2021-10-21 03:17:06 (INFO) main line:309 epoch: 679 train_loss: 0.0008301175548695028
+2021-10-21 03:17:36 (INFO) main line:309 epoch: 680 train_loss: 0.0007939637289382517
+2021-10-21 03:17:36 (INFO) main line:314 ------------------------------------it:680
+2021-10-21 03:18:01 (INFO) main line:157 Hits @10: 0.5089356725146199
+2021-10-21 03:18:01 (INFO) main line:159 Hits @3: 0.36439766081871344
+2021-10-21 03:18:01 (INFO) main line:161 Hits @1: 0.23941520467836258
+2021-10-21 03:18:01 (INFO) main line:163 Mean reciprocal rank: 0.3299758070831749
+2021-10-21 03:18:31 (INFO) main line:309 epoch: 681 train_loss: 0.0008932704804465175
+2021-10-21 03:19:02 (INFO) main line:309 epoch: 682 train_loss: 0.0007812908152118325
+2021-10-21 03:19:32 (INFO) main line:309 epoch: 683 train_loss: 0.0008362132357433438
+2021-10-21 03:20:02 (INFO) main line:309 epoch: 684 train_loss: 0.0007696478278376162
+2021-10-21 03:20:33 (INFO) main line:309 epoch: 685 train_loss: 0.0007800167659297585
+2021-10-21 03:21:03 (INFO) main line:309 epoch: 686 train_loss: 0.0008487993618473411
+2021-10-21 03:21:33 (INFO) main line:309 epoch: 687 train_loss: 0.0008088876493275166
+2021-10-21 03:22:04 (INFO) main line:309 epoch: 688 train_loss: 0.0007569639710709453
+2021-10-21 03:22:34 (INFO) main line:309 epoch: 689 train_loss: 0.0008268979145213962
+2021-10-21 03:23:05 (INFO) main line:309 epoch: 690 train_loss: 0.0008016307838261127
+2021-10-21 03:23:05 (INFO) main line:314 ------------------------------------it:690
+2021-10-21 03:23:27 (INFO) main line:157 Hits @10: 0.5092865497076023
+2021-10-21 03:23:27 (INFO) main line:159 Hits @3: 0.36453801169590644
+2021-10-21 03:23:27 (INFO) main line:161 Hits @1: 0.23880701754385966
+2021-10-21 03:23:27 (INFO) main line:163 Mean reciprocal rank: 0.3297118798730617
+2021-10-21 03:23:57 (INFO) main line:309 epoch: 691 train_loss: 0.0008721463964320719
+2021-10-21 03:24:28 (INFO) main line:309 epoch: 692 train_loss: 0.0008087073219940066
+2021-10-21 03:24:58 (INFO) main line:309 epoch: 693 train_loss: 0.0007946760742925107
+2021-10-21 03:25:28 (INFO) main line:309 epoch: 694 train_loss: 0.0007674434455111623
+2021-10-21 03:25:59 (INFO) main line:309 epoch: 695 train_loss: 0.0008271587430499494
+2021-10-21 03:26:29 (INFO) main line:309 epoch: 696 train_loss: 0.0008271923288702965
+2021-10-21 03:26:59 (INFO) main line:309 epoch: 697 train_loss: 0.0008406674023717642
+2021-10-21 03:27:30 (INFO) main line:309 epoch: 698 train_loss: 0.0008040766115300357
+2021-10-21 03:28:00 (INFO) main line:309 epoch: 699 train_loss: 0.0008235255954787135
+2021-10-21 03:28:31 (INFO) main line:309 epoch: 700 train_loss: 0.0007949194987304509
+2021-10-21 03:28:31 (INFO) main line:314 ------------------------------------it:700
+2021-10-21 03:28:53 (INFO) main line:157 Hits @10: 0.5089590643274854
+2021-10-21 03:28:53 (INFO) main line:159 Hits @3: 0.36395321637426903
+2021-10-21 03:28:53 (INFO) main line:161 Hits @1: 0.23859649122807017
+2021-10-21 03:28:53 (INFO) main line:163 Mean reciprocal rank: 0.3295792711861526
+2021-10-21 03:29:23 (INFO) main line:309 epoch: 701 train_loss: 0.0007648482569493353
+2021-10-21 03:29:54 (INFO) main line:309 epoch: 702 train_loss: 0.000777486595325172
+2021-10-21 03:30:24 (INFO) main line:309 epoch: 703 train_loss: 0.0008511405321769416
+2021-10-21 03:30:54 (INFO) main line:309 epoch: 704 train_loss: 0.000764419964980334
+2021-10-21 03:31:25 (INFO) main line:309 epoch: 705 train_loss: 0.0008371041039936244
+2021-10-21 03:31:55 (INFO) main line:309 epoch: 706 train_loss: 0.0008153152884915471
+2021-10-21 03:32:26 (INFO) main line:309 epoch: 707 train_loss: 0.0008031018078327179
+2021-10-21 03:32:56 (INFO) main line:309 epoch: 708 train_loss: 0.0008117628167383373
+2021-10-21 03:33:26 (INFO) main line:309 epoch: 709 train_loss: 0.000793767161667347
+2021-10-21 03:33:57 (INFO) main line:309 epoch: 710 train_loss: 0.0008385683759115636
+2021-10-21 03:33:57 (INFO) main line:314 ------------------------------------it:710
+2021-10-21 03:34:21 (INFO) main line:157 Hits @10: 0.5090526315789474
+2021-10-21 03:34:21 (INFO) main line:159 Hits @3: 0.36432748538011694
+2021-10-21 03:34:21 (INFO) main line:161 Hits @1: 0.23859649122807017
+2021-10-21 03:34:21 (INFO) main line:163 Mean reciprocal rank: 0.3296619748759611
+2021-10-21 03:34:51 (INFO) main line:309 epoch: 711 train_loss: 0.000781615381129086
+2021-10-21 03:35:21 (INFO) main line:309 epoch: 712 train_loss: 0.0007417626911774278
+2021-10-21 03:35:52 (INFO) main line:309 epoch: 713 train_loss: 0.0007898570620454848
+2021-10-21 03:36:22 (INFO) main line:309 epoch: 714 train_loss: 0.000834721140563488
+2021-10-21 03:36:52 (INFO) main line:309 epoch: 715 train_loss: 0.0008154548122547567
+2021-10-21 03:37:23 (INFO) main line:309 epoch: 716 train_loss: 0.0008101967396214604
+2021-10-21 03:37:53 (INFO) main line:309 epoch: 717 train_loss: 0.0007958064088597894
+2021-10-21 03:38:24 (INFO) main line:309 epoch: 718 train_loss: 0.0007772716926410794
+2021-10-21 03:38:54 (INFO) main line:309 epoch: 719 train_loss: 0.0007316939882002771
+2021-10-21 03:39:24 (INFO) main line:309 epoch: 720 train_loss: 0.0007641866686753929
+2021-10-21 03:39:25 (INFO) main line:314 ------------------------------------it:720
+2021-10-21 03:39:48 (INFO) main line:157 Hits @10: 0.5080233918128655
+2021-10-21 03:39:48 (INFO) main line:159 Hits @3: 0.36364912280701756
+2021-10-21 03:39:48 (INFO) main line:161 Hits @1: 0.23815204678362573
+2021-10-21 03:39:48 (INFO) main line:163 Mean reciprocal rank: 0.3291141834280774
+2021-10-21 03:40:18 (INFO) main line:309 epoch: 721 train_loss: 0.0007875218871049583
+2021-10-21 03:40:49 (INFO) main line:309 epoch: 722 train_loss: 0.0007807165966369212
+2021-10-21 03:41:19 (INFO) main line:309 epoch: 723 train_loss: 0.0008359834318980575
+2021-10-21 03:41:49 (INFO) main line:309 epoch: 724 train_loss: 0.0007946940022520721
+2021-10-21 03:42:20 (INFO) main line:309 epoch: 725 train_loss: 0.000784739968366921
+2021-10-21 03:42:50 (INFO) main line:309 epoch: 726 train_loss: 0.0008265248616226017
+2021-10-21 03:43:21 (INFO) main line:309 epoch: 727 train_loss: 0.00087022315710783
+2021-10-21 03:43:51 (INFO) main line:309 epoch: 728 train_loss: 0.0007871435373090208
+2021-10-21 03:44:21 (INFO) main line:309 epoch: 729 train_loss: 0.0008047316805459559
+2021-10-21 03:44:52 (INFO) main line:309 epoch: 730 train_loss: 0.0007701069698669016
+2021-10-21 03:44:52 (INFO) main line:314 ------------------------------------it:730
+2021-10-21 03:45:16 (INFO) main line:157 Hits @10: 0.5089824561403509
+2021-10-21 03:45:16 (INFO) main line:159 Hits @3: 0.363906432748538
+2021-10-21 03:45:16 (INFO) main line:161 Hits @1: 0.23824561403508773
+2021-10-21 03:45:16 (INFO) main line:163 Mean reciprocal rank: 0.32917044608588175
+2021-10-21 03:45:46 (INFO) main line:309 epoch: 731 train_loss: 0.0007798640872351825
+2021-10-21 03:46:16 (INFO) main line:309 epoch: 732 train_loss: 0.0008071935153566301
+2021-10-21 03:46:47 (INFO) main line:309 epoch: 733 train_loss: 0.0007593260379508138
+2021-10-21 03:47:17 (INFO) main line:309 epoch: 734 train_loss: 0.0008590914658270776
+2021-10-21 03:47:48 (INFO) main line:309 epoch: 735 train_loss: 0.0007883684011176229
+2021-10-21 03:48:18 (INFO) main line:309 epoch: 736 train_loss: 0.000816761632449925
+2021-10-21 03:48:48 (INFO) main line:309 epoch: 737 train_loss: 0.0007808089139871299
+2021-10-21 03:49:19 (INFO) main line:309 epoch: 738 train_loss: 0.0008401966188102961
+2021-10-21 03:49:49 (INFO) main line:309 epoch: 739 train_loss: 0.0007934473105706275
+2021-10-21 03:50:19 (INFO) main line:309 epoch: 740 train_loss: 0.0007750688237138093
+2021-10-21 03:50:20 (INFO) main line:314 ------------------------------------it:740
+2021-10-21 03:50:42 (INFO) main line:157 Hits @10: 0.5092397660818714
+2021-10-21 03:50:42 (INFO) main line:159 Hits @3: 0.36402339181286547
+2021-10-21 03:50:42 (INFO) main line:161 Hits @1: 0.23815204678362573
+2021-10-21 03:50:42 (INFO) main line:163 Mean reciprocal rank: 0.3292913258827386
+2021-10-21 03:51:12 (INFO) main line:309 epoch: 741 train_loss: 0.0007834186544641852
+2021-10-21 03:51:43 (INFO) main line:309 epoch: 742 train_loss: 0.0007750042714178562
+2021-10-21 03:52:13 (INFO) main line:309 epoch: 743 train_loss: 0.0008279341855086386
+2021-10-21 03:52:43 (INFO) main line:309 epoch: 744 train_loss: 0.0008158758864738047
+2021-10-21 03:53:14 (INFO) main line:309 epoch: 745 train_loss: 0.0008300173212774098
+2021-10-21 03:53:44 (INFO) main line:309 epoch: 746 train_loss: 0.0008228927617892623
+2021-10-21 03:54:15 (INFO) main line:309 epoch: 747 train_loss: 0.0007915949681773782
+2021-10-21 03:54:45 (INFO) main line:309 epoch: 748 train_loss: 0.0008346807444468141
+2021-10-21 03:55:15 (INFO) main line:309 epoch: 749 train_loss: 0.0007768943323753774
+2021-10-21 03:55:46 (INFO) main line:309 epoch: 750 train_loss: 0.0008268856327049434
+2021-10-21 03:55:46 (INFO) main line:314 ------------------------------------it:750
+2021-10-21 03:56:09 (INFO) main line:157 Hits @10: 0.5089590643274854
+2021-10-21 03:56:09 (INFO) main line:159 Hits @3: 0.3649122807017544
+2021-10-21 03:56:09 (INFO) main line:161 Hits @1: 0.2385029239766082
+2021-10-21 03:56:09 (INFO) main line:163 Mean reciprocal rank: 0.32957475956819643
+2021-10-21 03:56:39 (INFO) main line:309 epoch: 751 train_loss: 0.0008260577451437712
+2021-10-21 03:57:09 (INFO) main line:309 epoch: 752 train_loss: 0.0008027693838812411
+2021-10-21 03:57:40 (INFO) main line:309 epoch: 753 train_loss: 0.0007550474838353693
+2021-10-21 03:58:10 (INFO) main line:309 epoch: 754 train_loss: 0.0007808654918335378
+2021-10-21 03:58:41 (INFO) main line:309 epoch: 755 train_loss: 0.0008767649997025728
+2021-10-21 03:59:11 (INFO) main line:309 epoch: 756 train_loss: 0.0008325057569891214
+2021-10-21 03:59:41 (INFO) main line:309 epoch: 757 train_loss: 0.0007740763830952346
+2021-10-21 04:00:12 (INFO) main line:309 epoch: 758 train_loss: 0.0008140894933603704
+2021-10-21 04:00:42 (INFO) main line:309 epoch: 759 train_loss: 0.0007776910206303
+2021-10-21 04:01:13 (INFO) main line:309 epoch: 760 train_loss: 0.0008237672736868262
+2021-10-21 04:01:13 (INFO) main line:314 ------------------------------------it:760
+2021-10-21 04:01:34 (INFO) main line:157 Hits @10: 0.5091929824561403
+2021-10-21 04:01:34 (INFO) main line:159 Hits @3: 0.3641169590643275
+2021-10-21 04:01:34 (INFO) main line:161 Hits @1: 0.2390409356725146
+2021-10-21 04:01:34 (INFO) main line:163 Mean reciprocal rank: 0.3297358390824912
+2021-10-21 04:02:05 (INFO) main line:309 epoch: 761 train_loss: 0.000809079734608531
+2021-10-21 04:02:35 (INFO) main line:309 epoch: 762 train_loss: 0.0008458790834993124
+2021-10-21 04:03:05 (INFO) main line:309 epoch: 763 train_loss: 0.0008102104184217751
+2021-10-21 04:03:36 (INFO) main line:309 epoch: 764 train_loss: 0.0007487203693017364
+2021-10-21 04:04:06 (INFO) main line:309 epoch: 765 train_loss: 0.0008157987613230944
+2021-10-21 04:04:37 (INFO) main line:309 epoch: 766 train_loss: 0.0008005030686035752
+2021-10-21 04:05:07 (INFO) main line:309 epoch: 767 train_loss: 0.0008113565854728222
+2021-10-21 04:05:37 (INFO) main line:309 epoch: 768 train_loss: 0.0008136839023791254
+2021-10-21 04:06:08 (INFO) main line:309 epoch: 769 train_loss: 0.0008053462370298803
+2021-10-21 04:06:38 (INFO) main line:309 epoch: 770 train_loss: 0.0008514888468198478
+2021-10-21 04:06:38 (INFO) main line:314 ------------------------------------it:770
+2021-10-21 04:07:01 (INFO) main line:157 Hits @10: 0.5085847953216375
+2021-10-21 04:07:01 (INFO) main line:159 Hits @3: 0.36516959064327487
+2021-10-21 04:07:01 (INFO) main line:161 Hits @1: 0.2391111111111111
+2021-10-21 04:07:01 (INFO) main line:163 Mean reciprocal rank: 0.33017736727526165
+2021-10-21 04:07:31 (INFO) main line:309 epoch: 771 train_loss: 0.0008269685786217451
+2021-10-21 04:08:02 (INFO) main line:309 epoch: 772 train_loss: 0.0008698385208845139
+2021-10-21 04:08:32 (INFO) main line:309 epoch: 773 train_loss: 0.0008135317475534976
+2021-10-21 04:09:02 (INFO) main line:309 epoch: 774 train_loss: 0.0007765991613268852
+2021-10-21 04:09:33 (INFO) main line:309 epoch: 775 train_loss: 0.0007880996563471854
+2021-10-21 04:10:03 (INFO) main line:309 epoch: 776 train_loss: 0.0007615960203111172
+2021-10-21 04:10:34 (INFO) main line:309 epoch: 777 train_loss: 0.0008023527334444225
+2021-10-21 04:11:04 (INFO) main line:309 epoch: 778 train_loss: 0.0007762916502542794
+2021-10-21 04:11:34 (INFO) main line:309 epoch: 779 train_loss: 0.0008670237730257213
+2021-10-21 04:12:05 (INFO) main line:309 epoch: 780 train_loss: 0.0008331091376021504
+2021-10-21 04:12:05 (INFO) main line:314 ------------------------------------it:780
+2021-10-21 04:12:27 (INFO) main line:157 Hits @10: 0.5095672514619883
+2021-10-21 04:12:27 (INFO) main line:159 Hits @3: 0.36460818713450294
+2021-10-21 04:12:27 (INFO) main line:161 Hits @1: 0.23864327485380116
+2021-10-21 04:12:27 (INFO) main line:163 Mean reciprocal rank: 0.32981262984277304
+2021-10-21 04:12:58 (INFO) main line:309 epoch: 781 train_loss: 0.0007890986162237823
+2021-10-21 04:13:28 (INFO) main line:309 epoch: 782 train_loss: 0.0008188742795027792
+2021-10-21 04:13:58 (INFO) main line:309 epoch: 783 train_loss: 0.0007601079414598644
+2021-10-21 04:14:29 (INFO) main line:309 epoch: 784 train_loss: 0.0008177264244295657
+2021-10-21 04:14:59 (INFO) main line:309 epoch: 785 train_loss: 0.0008305269293487072
+2021-10-21 04:15:29 (INFO) main line:309 epoch: 786 train_loss: 0.0008302767528221011
+2021-10-21 04:16:00 (INFO) main line:309 epoch: 787 train_loss: 0.0008136776159517467
+2021-10-21 04:16:30 (INFO) main line:309 epoch: 788 train_loss: 0.0008054563077166677
+2021-10-21 04:17:01 (INFO) main line:309 epoch: 789 train_loss: 0.0008304008515551686
+2021-10-21 04:17:31 (INFO) main line:309 epoch: 790 train_loss: 0.0007959924987517297
+2021-10-21 04:17:31 (INFO) main line:314 ------------------------------------it:790
+2021-10-21 04:17:54 (INFO) main line:157 Hits @10: 0.5083742690058479
+2021-10-21 04:17:54 (INFO) main line:159 Hits @3: 0.364046783625731
+2021-10-21 04:17:54 (INFO) main line:161 Hits @1: 0.23866666666666667
+2021-10-21 04:17:54 (INFO) main line:163 Mean reciprocal rank: 0.32941707011677085
+2021-10-21 04:18:24 (INFO) main line:309 epoch: 791 train_loss: 0.0008024597773328424
+2021-10-21 04:18:54 (INFO) main line:309 epoch: 792 train_loss: 0.0008210397209040821
+2021-10-21 04:19:25 (INFO) main line:309 epoch: 793 train_loss: 0.0008014218183234334
+2021-10-21 04:19:55 (INFO) main line:309 epoch: 794 train_loss: 0.0008305383962579072
+2021-10-21 04:20:25 (INFO) main line:309 epoch: 795 train_loss: 0.0008552852086722851
+2021-10-21 04:20:56 (INFO) main line:309 epoch: 796 train_loss: 0.0008564056479372084
+2021-10-21 04:21:26 (INFO) main line:309 epoch: 797 train_loss: 0.0007711726357229054
+2021-10-21 04:21:57 (INFO) main line:309 epoch: 798 train_loss: 0.0007767226779833436
+2021-10-21 04:22:27 (INFO) main line:309 epoch: 799 train_loss: 0.0008325007511302829
+2021-10-21 04:22:57 (INFO) main line:309 epoch: 800 train_loss: 0.0007298533455468714
+2021-10-21 04:22:57 (INFO) main line:314 ------------------------------------it:800
+2021-10-21 04:23:21 (INFO) main line:157 Hits @10: 0.5098245614035087
+2021-10-21 04:23:21 (INFO) main line:159 Hits @3: 0.36371929824561405
+2021-10-21 04:23:21 (INFO) main line:161 Hits @1: 0.23871345029239766
+2021-10-21 04:23:21 (INFO) main line:163 Mean reciprocal rank: 0.32951427492490576
+2021-10-21 04:23:21 (INFO) main line:255 MAX Hits @10: 0.5098245614035087
+2021-10-21 04:23:21 (INFO) main line:256 MAX Hits @3: 0.36516959064327487
+2021-10-21 04:23:21 (INFO) main line:257 MAX Hits @1: 0.23941520467836258
+2021-10-21 04:23:21 (INFO) main line:258 MAX Mean reciprocal rank: 0.33017736727526165
