@@ -78,3 +78,5 @@ frgat_output_dropout:0.2
 frgat_initial_dropout:0.0
 frgat_computing_model:'TransE'
 frgat_composition_operator:'sub'
+### How to test
+- The relevant code of the test is in main.py. When running 400 epochs, it is tested every 5 epochs.
