@@ -22,11 +22,11 @@ YAGO43KET | 0.3437 | 0.2482 | 0.3762 | 0.5230
 - model.py: this file defines CE2T model, RACE2T model, etc.
 - main.py: this file is used for model training and testing.
 ### How to run
-# RACE2T (for FB15K and FB15KET)
+RACE2T (for FB15K and FB15KET):
 - python run.py -num_layers 2 -nb_heads 2 -embsize_entity_type 200 -hidden_embedding_size 300 -output_embedding_size 600 -frgat_computing_model TransE -frgat_composition_operator sub -learningrate 0.0001
 - python run.py -num_layers 2 -nb_heads 2 -embsize_entity_type 200 -hidden_embedding_size 300 -output_embedding_size 600 -frgat_computing_model DisMult -frgat_composition_operator mult -learningrate 0.0001
 - python run.py -num_layers 2 -nb_heads 2 -embsize_entity_type 200 -hidden_embedding_size 300 -output_embedding_size 600 -frgat_computing_model DisMult -frgat_composition_operator sub -learningrate 0.0001
-# RACE2T (for YAGO43K and YAGO43KET)
+RACE2T (for YAGO43K and YAGO43KET):
 - python run.py -num_layers 1 -nb_heads 1 -embsize_entity_type 200 -hidden_embedding_size 200 -output_embedding_size 600 -frgat_computing_model TransE -frgat_composition_operator sub -learningrate 0.00055
 - python run.py -num_layers 2 -nb_heads 2 -embsize_entity_type 200 -hidden_embedding_size 200 -output_embedding_size 600 -frgat_computing_model DisMult -frgat_composition_operator mult -learningrate 0.00055
 ### Detailed optimal parameters
