@@ -12,8 +12,16 @@ Dataset | MRR | Hits@1 | Hits@3 | Hits@10
 FB15KET | 0.6456 | 0.5607 | 0.6884 | 0.8172
 YAGO43KET | 0.3437 | 0.2482 | 0.3762 | 0.5230
 
-\1. Parameter Setup
+Parameter Setup
 
-1.1 Dependencies
+1 Dependencies
 - Dependencies can be installed using `requirements.txt`.
-
+2 Datasets 
+- FB15K,FB15KET,YAGO43K and YAGO43KET are stored in folder 'data'(this folder contains compressed files, which need to be decompressed before use).
+3 Source file
+- config.py: Parameter configuration
+- load_data.py: Load dataset file (equivalent to data_loader).
+- logger_init.py: log file.
+- layers.py: this file defines the operation process of FRGAT.
+- model.py: this file defines CE2T model, RACE2T model, etc
+4 
