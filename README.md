@@ -10,10 +10,9 @@
 
 
 ### Requirements
-* Python 3.7
-* PyTorch 1.5.1
-* torch-geometric 1.6.1
-* torch-scatter 2.0.5
+* Python 3.8
+* torch==1.8.0
+* torch_scatter==2.0.4
 
 ### Entity Type prediction Results
 Dataset | MRR | Hits@1 | Hits@3 | Hits@10
