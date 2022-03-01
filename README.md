@@ -8,6 +8,13 @@
   <img align="center"  src="https://github.com/GentlebreezeZ/RACE2T/blob/main/Framework.jpg" alt="...">
 </h2>
 
+
+### Requirements
+* Python 3.7
+* PyTorch 1.5.1
+* torch-geometric 1.6.1
+* torch-scatter 2.0.5
+
 ### Entity Type prediction Results
 Dataset | MRR | Hits@1 | Hits@3 | Hits@10
 :--- | :---: | :---: | :---: | :---:
