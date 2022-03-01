@@ -3,9 +3,10 @@
 </h1>
 
 
-###                               The framework of RACE2T.
-
-![image](https://github.com/GentlebreezeZ/RACE2T/blob/main/Framework.jpg)
+<h2 align="center">
+  Overview of StarE
+  <img align="center"  src="https://github.com/GentlebreezeZ/RACE2T/blob/main/Framework.jpg" alt="...">
+</h2>
 
 ### Entity Type prediction Results
 Dataset | MRR | Hits@1 | Hits@3 | Hits@10
