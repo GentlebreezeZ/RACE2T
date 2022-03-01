@@ -1,10 +1,10 @@
 <h1 align="center">
   RACE2T
 </h1>
-
+<h4 align="center">Knowledge Graph Entity Type Prediction with Relational Aggregation Graph Attention Network.</h4>
 
 <h2 align="center">
-  Overview of StarE
+  The framework of RACE2T
   <img align="center"  src="https://github.com/GentlebreezeZ/RACE2T/blob/main/Framework.jpg" alt="...">
 </h2>
 
