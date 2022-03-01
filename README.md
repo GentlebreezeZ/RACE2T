@@ -3,6 +3,8 @@
 </h1>
 ###             The framework of RACE2T.
 ![image](https://github.com/GentlebreezeZ/RACE2T/blob/main/Framework.jpg)
+
+
 ### Entity Type prediction Results
 Dataset | MRR | Hits@1 | Hits@3 | Hits@10
 :--- | :---: | :---: | :---: | :---:
