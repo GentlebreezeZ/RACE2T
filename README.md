@@ -70,7 +70,7 @@ frgat_composition_operator:'mult'
 - FB15K(more detailed parameters are set in the config.py):
 
 epochs:500
-batchsize:256
+batchsize:128
 num_filters:64
 filt_h:1
 filt_w:2
