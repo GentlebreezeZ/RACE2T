@@ -41,7 +41,7 @@ RACE2T (for FB15K and FB15KET):
 
 RACE2T (for YAGO43K and YAGO43KET):
 - python main.py -num_layers 1 -nb_heads 1 -embsize_entity_type 200 -hidden_embedding_size 200 -output_embedding_size 600 -frgat_computing_model TransE -frgat_composition_operator sub -learningrate 0.00055
-- python main.py -num_layers 2 -nb_heads 2 -embsize_entity_type 200 -hidden_embedding_size 200 -output_embedding_size 600 -frgat_computing_model DisMult -frgat_composition_operator mult -learningrate 0.00055
+- python main.py -num_layers 1 -nb_heads 1 -embsize_entity_type 200 -hidden_embedding_size 200 -output_embedding_size 600 -frgat_computing_model DisMult -frgat_composition_operator mult -learningrate 0.00055
 ### Detailed optimal parameters
 - YAGO43K(more detailed parameters are set in the config.py):
 epochs:500
