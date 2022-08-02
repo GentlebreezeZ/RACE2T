@@ -93,3 +93,32 @@ frgat_computing_model:'TransE'
 frgat_composition_operator:'sub'
 ### How to test
 - The relevant code of the test is in main.py. When running 400 epochs, it is tested every 5 epochs.
+
+#### When using this codebase or dataset please cite:
+
+```
+@inproceedings{RACE2T,
+  author    = {Changlong Zou and
+               Jingmin An and
+               Guanyu Li},
+  editor    = {Paul Groth and
+               Maria{-}Esther Vidal and
+               Fabian M. Suchanek and
+               Pedro A. Szekely and
+               Pavan Kapanipathi and
+               Catia Pesquita and
+               Hala Skaf{-}Molli and
+               Minna Tamper},
+  title     = {Knowledge Graph Entity Type Prediction with Relational Aggregation
+               Graph Attention Network},
+  booktitle = {The Semantic Web - 19th International Conference, {ESWC} 2022, Hersonissos,
+               Crete, Greece, May 29 - June 2, 2022, Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {13261},
+  pages     = {39--55},
+  publisher = {Springer},
+  year      = {2022},
+  url       = {https://doi.org/10.1007/978-3-031-06981-9\_3},
+  doi       = {10.1007/978-3-031-06981-9\_3}
+}
+```
