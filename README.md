@@ -94,7 +94,7 @@ frgat_composition_operator:'sub'
 ### How to test
 - The relevant code of the test is in main.py. When running 400 epochs, it is tested every 5 epochs.
 
-#### When using this codebase or dataset please cite:
+#### When using this codebase please cite:
 
 ```
 @inproceedings{RACE2T,
